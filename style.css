@@ -20,7 +20,6 @@ margin:0px;
 color: F9F9F9;
 }
 
-
 .banner {
 position: relative;
 border-radius: 0 0 50px 0;
@@ -32,13 +31,20 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26)
 }
 
 .banner_photo{
-background-image: url("penang.jpg");
 background-color: #cccccc;
 height: 450px;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
+}
+
+#rent_banner_photo{
+background-image: url("apartment.jpg");
+}
+
+#homepage_banner_photo{
+background-image: url("penang.jpg");
 }
 
 body {
@@ -79,7 +85,7 @@ transform: translate(-50%, -50%);
 color: white;
 }
 
-.homepage_intro {
+.page_intro {
 font-family: "Montserrat", sans-serif;
 color: black;
 font-weight: bold;
@@ -88,7 +94,7 @@ margin-right: 280px;
 margin-left: 280px;
 }
 
-.homepage_box{
+.content_box{
 background-color: #373737;
 float:center;
 margin-right: 200px;
@@ -110,4 +116,41 @@ float:left;
 width:180px;
 height:40px;
 border-radius: 0 0 40px 40px;
+}
+
+.searchbox{
+float: center;
+top: 50%;
+left: 50%;
+border-radius: 40px;
+background: black;
+opacity: 0.8;
+height: 40px;
+padding: 10px;
+}
+
+.search_text{
+border: none;
+background: none;
+outline: none;
+float: left;
+padding: 0;
+margin-left: 10px;
+color: white;
+font-size: 16px;
+font-weight: bold;
+line-height: 40px;
+width: 400px;
+}
+
+.search_button {
+background: url("mag.png") 0 0 no-repeat;
+color: white;
+border-radius: 40px;
+width: 40px;
+height: 40px;
+border: none;
+margin: 0;
+padding: 0;
+cursor: pointer;
 }

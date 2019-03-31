@@ -4,27 +4,29 @@ font-weight: bold;
 }
 
 a:link, a:visited {
-background-color: black;
 opacity: 1.0;
-margin:0px;
-color: white;
-padding: 10px 20px;
 text-decoration: none;
-display: inline-block;
+color: white;
 }
 
 a:hover, a:active {
-background-color: black;
 opacity: 0.6;
-margin:0px;
+text-decoration: none;
 color: F9F9F9;
 }
 
-.banner {
+.banner_link{
+background-color: black;
+margin:0px;
+padding: 10px 20px;
+display: inline-block;
+color: white;
+}
+
+.banner{
 position: relative;
 border-radius: 0 0 50px 0;
 margin-top: 0%;
-margin-bottom: 5%;
 width: 85%;
 height: 40px;
 box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26)
@@ -39,12 +41,13 @@ background-size: cover;
 position: relative;
 }
 
-#rent_banner_photo{
-background-image: url("apartment.jpg");
-}
-
-#homepage_banner_photo{
-background-image: url("penang.jpg");
+.content_box{
+background-color: #2C2C2C;
+float:center;
+margin-right: 2%;
+margin-left: 2%;
+border-radius: 40px 40px 40px 40px;
+box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.26)
 }
 
 body {
@@ -72,7 +75,6 @@ font-size:30px;
 
 h3 {
 font-size:40px;
-color: white;
 text-align: center;
 }
 
@@ -85,38 +87,25 @@ transform: translate(-50%, -50%);
 color: white;
 }
 
+#homepage_banner_photo{
+background-image: url("penang.jpg");
+}
+
 .page_intro {
 font-family: "Montserrat", sans-serif;
 color: black;
-font-weight: bold;
-font-size:23px;
+font-size:22px;
 margin-right: 280px;
 margin-left: 280px;
 }
 
-.content_box{
-background-color: #373737;
-float:center;
-margin-right: 200px;
-margin-left: 200px;
-border-radius: 40px 40px 40px 40px;
-box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.26)
+.intro_photos{
+display: inline-block;
+height: 200px;
+width: 300px;
+margin: 1em;
 }
 
-img:hover {
-opacity: 0.7;
-}
-
-.transparent_header {
-background-color: black;
-text-align: center;
-opacity: 0.6;
-padding:0px;
-float:left;
-width:180px;
-height:40px;
-border-radius: 0 0 40px 40px;
-}
 
 .searchbox{
 float: center;
@@ -153,4 +142,32 @@ border: none;
 margin: 0;
 padding: 0;
 cursor: pointer;
+}
+
+.showcase_box{
+float: center;
+background-color: white;
+margin: 0.64em;
+width: 300px;
+height: 300px;
+border-radius: 0 0 40px 40px;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+position: center;
+display: inline-block;
+}
+
+
+.transparent_header {
+background-color: black;
+text-align: center;
+opacity: 0.6;
+padding:0px;
+float:left;
+width:180px;
+height:40px;
+border-radius: 0 0 40px 40px;
+}
+
+#rent_banner_photo{
+background-image: url("apartment.jpg");
 }

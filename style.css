@@ -91,6 +91,10 @@ color: white;
 background-image: url("penang.jpg");
 }
 
+#inquiry_banner_photo{
+background-image: url("inquiry_banner_photo.jpg");
+}
+
 .page_intro {
 font-family: "Montserrat", sans-serif;
 color: black;
@@ -171,3 +175,15 @@ border-radius: 0 0 40px 40px;
 #rent_banner_photo{
 background-image: url("apartment.jpg");
 }
+
+
+
+
+
+
+
+
+
+
+
+

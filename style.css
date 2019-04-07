@@ -285,3 +285,11 @@ background-image: url("apartment.jpg");
   float: center;
   text-align: center;
 }
+
+.disclaimer {
+font-family: "Montserrat", sans-serif;
+color: black;
+font-size:22px;
+margin-right: 280px;
+margin-left: 280px;
+}

@@ -13,32 +13,23 @@
 <title>Homepage</title>
 
 <link rel="stylesheet" type="text/css" href="style.css">
-	
+
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
 </head>
 
 <body>
 
-<header>
-
-<div class="banner_photo" id="homepage_banner_photo">
-	<div class="banner">
-		<span class="transparent_header"><a class="banner_link" href="index.html">Home</a></span>
-		<span class="transparent_header"><a class="banner_link" href="rent.html">Rent</a></span>
-		<span class="transparent_header"><a class="banner_link" href="inq.html">Inquiries</a></span>
-		<span class="transparent_header"><a class="banner_link" href="about.html">About Us</a></span>
+<header class="banner_photo" id="homepage_banner_photo">
+	<div class="menu_banner">
+			<a id="active" href="index.html">Home</a>
+			<a href="product.html">Products</a>
+			<a href="enquiry.html">Enquiries</a>
+			<a class="menu_about" href="about.html">About Us</a>
 	</div>
-	<div class="headline">
-	<h1><hr/>Beta Real Estate<hr/></h1>
-		<div class="searchbox">
-			<!-- Search function completely optional. PHP required -->
-			<form action="/action_page.php">
-				<input class="search_text" type="text" placeholder="Search for properties..." name="search">
-				<button class="search_button" type="submit"></button>
-			</form>
-		</div>
-	</div>
-</div>
-
+	<span class="headline">
+		<h1>Beta Real Estate</h1>
+	</span>
 </header>
 
 <article>
@@ -47,7 +38,7 @@
 
 <br/>
 <hr/>
-<p><h3>Offices &#183 Residences &#183 Industrial Parks &#183 Shops</h3></p>
+<h5>Offices &#183 Apartments &#183 Houses &#183 Shops</h5>
 <img class="intro_photos" src="ind_thumbnail.jpg">
 <img class="intro_photos" src="shop_thumbnail.jpg">
 <img class="intro_photos" src="off_thumbnail.jpg">
@@ -66,48 +57,72 @@
 <div class="content_box">
 
 <br/>
-<p><h3 style="color: white;">Latest Projects</h3></p>
+<h3>Latest Projects</h3>
 
 <!-- photocard links -->
 
-<a href="property1.html" class="showcase_box">
+<a href="property1.html" class="showcase_card">
 <img src="penang.jpg" style="width: 300px; height: 200px;">
-<p style="color: black;">Small apartment<br/>Monthly rate: RM 1,300</p>
+<div class="showcase_text">
+	<h4>Small apartment</h4>
+	<p>Monthly rate: RM 1,300</p>
+</div>
 </a>
 
-<a href="property2.html" class="showcase_box">
+<a href="property2.html" class="showcase_card">
 <img src="penang.jpg" style="width: 300px; height: 200px;">
-<p style="color: black;">Medium apartment<br/>Monthly rate: RM 2,000</p>
+<div class="showcase_text">
+	<h4>Medium apartment</h4>
+	<p>Monthly rate: RM 2,000</p>
+</div>
 </a>
 
-<a href="property3.html" class="showcase_box">
+<a href="property3.html" class="showcase_card">
 <img src="penang.jpg" style="width: 300px; height: 200px;">
-<p style="color: black;">Large apartment<br/>Monthly rate: RM 3,200</p>
+<div class="showcase_text">
+	<h4>Large apartment</h4>
+	<p>Monthly rate: RM 3,200</p>
+</div>
 </a>
 
-<a href="property4.html" class="showcase_box">
+<a href="property4.html" class="showcase_card">
 <img src="penang.jpg" style="width: 300px; height: 200px;">
-<p style="color: black;">Large apartment<br/>Monthly rate: RM 4,000</p>
+<div class="showcase_text">
+	<h4>Exclusive apartment</h4>
+	<p>Monthly rate: RM 4,000</p>
+</div>
 </a>
 
-<a href="property5.html" class="showcase_box">
+<a href="property5.html" class="showcase_card">
 <img src="penang.jpg" style="width: 300px; height: 200px;">
-<p style="color: black;">This is a penang property</p>
+<div class="showcase_text">
+	<p>Large apartment</p>
+	<p>Monthly rate: RM 4,000</p>
+</div>
 </a>
 
-<a href="property6.html" class="showcase_box">
+<a href="property6.html" class="showcase_card">
 <img src="penang.jpg" style="width: 300px; height: 200px;">
-<p style="color: black;">This is a second penang property</p>
+<div class="showcase_text">
+	<p>Large apartment</p>
+	<p>Monthly rate: RM 4,000</p>
+</div>
 </a>
 
-<a href="property7.html" class="showcase_box">
+<a href="property7.html" class="showcase_card">
 <img src="penang.jpg" style="width: 300px; height: 200px;">
-<p style="color: black;">This is a third penang property</p>
+<div class="showcase_text">
+	<p>Large apartment</p>
+	<p>Monthly rate: RM 4,000</p>
+</div>
 </a>
 
-<a href="property8.html" class="showcase_box">
+<a href="property8.html" class="showcase_card">
 <img src="penang.jpg" style="width: 300px; height: 200px;">
-<p style="color: black;">This is a fourth penang property</p>
+<div class="showcase_text">
+	<p>Large apartment</p>
+	<p>Monthly rate: RM 4,000</p>
+</div>
 </a>
 
 <!-- End of photocard links -->
@@ -128,7 +143,7 @@
 
 <footer>
 
-<table cellpadding="5" style="color: white; margin-left: 30px;">
+<table cellpadding="5" class="footer_table">
 <tr>
 	<th><br/> © Beta Real Estate Corporation Sdn Bhd</th>
 </tr>

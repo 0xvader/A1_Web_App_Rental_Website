@@ -247,10 +247,9 @@ background-image: url("apartment.jpg");
 
 /* Start of CSS by Alex */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:900,300);
  aboutmebody{
   background-color: #f0f0f0;
-  font-family: roboto;
+  font-family: serif;
 }
 .container {
   width: 400px;
@@ -258,16 +257,11 @@ background-image: url("apartment.jpg");
   background-color: #fff;
   padding: 0 20px 20px;
   border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.075);
-  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
-  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
   text-align: center;
 }
 .container:hover .avatar-flip {
   transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
 }
 .container:hover .avatar-flip img:first-child {
   opacity: 0;
@@ -287,11 +281,7 @@ background-image: url("apartment.jpg");
   margin: auto;
   top: -60px;
   transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
   box-shadow: 0 0 0 13px #f0f0f0;
-  -webkit-box-shadow: 0 0 0 13px #f0f0f0;
-  -moz-box-shadow: 0 0 0 13px #f0f0f0;
 }
 .avatar-flip img {
   position: absolute;
@@ -301,8 +291,6 @@ background-image: url("apartment.jpg");
   border-radius: 100px;
   padding: 20px;
   transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
 }
 .avatar-flip img:first-child {
   z-index: 1;
@@ -310,7 +298,6 @@ background-image: url("apartment.jpg");
 .avatar-flip img:last-child {
   z-index: 0;
   transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
   opacity: 0;
 }
 
@@ -336,7 +323,7 @@ background-image: url("apartment.jpg");
 #aboutmeh2 {
   font-size: 200%;
   font-weight: bold;
-  text-align:
+  text-align: center;
   margin-bottom: 15px;
   color: #333;
 
@@ -415,3 +402,21 @@ div.content_box {
 }
 
 /* End of CSS by Jonathan */
+
+/* Start of CSS by Jeffrey */
+
+.disclaimer {
+	font-family: "Montserrat", sans-serif;
+	color: black;
+	font-size:22px;
+	margin-right: 280px;
+	margin-left: 280px;
+}
+
+#webmaster_email {
+	opacity: 1.0;
+	text-decoration: none;
+	color: black;
+}
+
+/* End of CSS by Jeffrey */

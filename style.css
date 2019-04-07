@@ -158,8 +158,8 @@ z-index: 0;
 background-image: url("penang.jpg");
 }
 
-#inquiry_banner_photo{
-background-image: url("inquiry_banner_photo.jpg");
+#enquiry_banner_photo{
+background-image: url("enquiry_banner_photo.jpg");
 }
 
 .page_intro {
@@ -239,7 +239,7 @@ color: black;
 text-align: center;
 }
 
-#rent_banner_photo{
+#product_banner_photo{
 background-image: url("apartment.jpg");
 }
 

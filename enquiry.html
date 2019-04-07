@@ -49,24 +49,56 @@
 <!-- Main content here -->
 
 <br/>
-<br/>
-<br/>
-<br/> 
-<br/>
 
 <div class="content_box">
 
 <br/>
-<p><h3 style="color: white;">Send us a message!</h3></p>
+<p><h3 style="color: black;">Send us a message!</h3></p>
 
 <div>
 	<form>
-		<input type="text" id="fname" name="fullname" placeholder="Full name">
-		<input type="text" id="email" name="email" placeholder="E-mail">		
-		<input type="text" id="phone" name="phone" placeholder="Phone">		
-		<input type="message" id="message" name="enquiry" placeholder="Your enquiry">		
+		<input type="text" id="fname" name="firstname" placeholder="First name" maxlength="25" pattern="^[a-zA-Z ]+$" required="required"/>
+		<input type="text" id="lname" name="lastname" placeholder="Last name" maxlength="25" pattern="^[a-zA-Z ]+$" required="required"/>
+		<input type="email" id="email" name="contactemail" placeholder="E-mail" required="required"/>		
+		<input type="tel" id="phone" name="phone" placeholder="Phone number" maxlength="10" pattern="\(\d{2}\) +\d{4}" required="required"/>		
+		<fieldset>
+			<legend>Address</legend>
+			<label>Street Address: <input type="text" name="saddress" maxlength="40" required="required"/></label> 
+			<label>City/town: <input type="text" name="saddress" maxlength="20" required="required"/></label>
+			<label for="state">State</label> 
+				<select name="state" id="state">
+				<option value="Sarawak" selected="selected">Sarawak</option>
+				<option value="Johor">Johor</option>
+				<option value="Kedah">Kedah</option>
+				<option value="Kuala Lumpur">Kuala Lumpur</option>
+				<option value="Kelantan">Kelantan</option>
+				<option value="Labuan">Labuan</option>
+				<option value="Malacca">Malacca</option>
+				<option value="Negeri Sembilan">Negeri Sembilan</option>
+				<option value="Pahang">Pahang</option>
+				<option value="Penang">Penang</option>
+				<option value="Perak">Perak</option>
+				<option value="Perlis">Perlis</option>
+				<option value="Putrajaya">Putrajaya</option>
+				<option value="Sabah">Sabah</option>
+				<option value="Selangor">Selangor</option>
+				<option value="Terengganu">Terengganu</option>
+				</select>
+			<label>Postcode<input type="tel" id="postcode" name="postcode" maxlength="5" pattern="\(\d{2}\) +\d{4}" required="required"/></label>
+		</fieldset>
+		<br/> 
+		<label for="product">Product</label>
+			<select name="product" id="product">
+			<option value="Apartments" selected="selected">Apartments</option>
+			<option value="Houses">Houses</option> 
+			<option value="Offices">Offices</option> 
+			<option value="Shops">Shops</option>
+			</select> 
+		<label>Rental duration (days)<input type="number" name="rentalduration" min="0" max="200" value="1" required="required"/></label>
+		<input type="message" id="message" name="enquiry" placeholder="Your enquiry" size="10" required="required"/>
 		<input type="submit" value="Submit">
 	</form>
+	
 </div>
 
 

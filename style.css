@@ -458,6 +458,8 @@ background-image: url("images/enquiry_banner_photo.jpg");
 	font-size:22px;
 	margin-right: 280px;
 	margin-left: 280px;
+	float: center;
+	text-align: center;
 }
 
 #webmaster_email {
@@ -483,6 +485,11 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 1);
 .offices{
 	width: 300px;
 	height: 200px;
+}
+
+#disclaimer_foot{
+	float: center;
+	text-align: center;
 }
 
 /* End of CSS by Jeffrey */

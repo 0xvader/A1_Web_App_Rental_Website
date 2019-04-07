@@ -468,7 +468,7 @@ background-image: url("images/enquiry_banner_photo.jpg");
 	color: black;
 }
 
-.showcase_card_offices{
+.showcase_card_products{
 float: left;
 background-color: white;
 margin: 1.1em;
@@ -478,11 +478,11 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 display: inline-block;
 }
 
-.showcase_card_offices:hover{
+.showcase_card_products:hover{
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
 
-.offices{
+.products{
 	width: 300px;
 	height: 200px;
 }

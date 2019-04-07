@@ -287,9 +287,15 @@ background-image: url("apartment.jpg");
 }
 
 .disclaimer {
-font-family: "Montserrat", sans-serif;
-color: black;
-font-size:22px;
-margin-right: 280px;
-margin-left: 280px;
+	font-family: "Montserrat", sans-serif;
+	color: black;
+	font-size:22px;
+	margin-right: 280px;
+	margin-left: 280px;
+}
+
+#webmaster_email {
+	opacity: 1.0;
+	text-decoration: none;
+	color: black;
 }

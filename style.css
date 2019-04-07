@@ -407,7 +407,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: white;
+  background-color: blue;
 }
 
 #enquiry_banner_photo{
@@ -420,7 +420,7 @@ background-image: url("images/enquiry_banner_photo.jpg");
 
 .disclaimer {
 	font-family: "Montserrat", sans-serif;
-	color: white;
+	color: black;
 	font-size:22px;
 	margin-right: 280px;
 	margin-left: 280px;
@@ -429,7 +429,7 @@ background-image: url("images/enquiry_banner_photo.jpg");
 #webmaster_email {
 	opacity: 1.0;
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 .showcase_card_offices{

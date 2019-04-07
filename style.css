@@ -432,4 +432,19 @@ background-image: url("images/enquiry_banner_photo.jpg");
 	color: white;
 }
 
+.showcase_card_offices{
+float: left;
+background-color: white;
+margin: 0.64em;
+width: 300px;
+height: 500px;
+border-radius: 0 0 40px 40px;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+display: inline-block;
+}
+
+.showcase_card_offices:hover{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 2);
+}
+
 /* End of CSS by Jeffrey */

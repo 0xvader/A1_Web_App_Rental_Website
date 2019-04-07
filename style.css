@@ -435,10 +435,9 @@ background-image: url("images/enquiry_banner_photo.jpg");
 .showcase_card_offices{
 float: left;
 background-color: white;
-margin: 0.64em;
+margin: 1.1em;
 width: 300px;
 height: 500px;
-border-radius: 0 0 40px 40px;
 box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 display: inline-block;
 }

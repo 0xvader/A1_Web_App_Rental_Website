@@ -529,6 +529,19 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 1);
 	text-align: center;
 }
 
+.profile{
+	width: 200px;
+	height: 200px;
+}
 
+.showcase_profile{
+align: center;
+background-color: white;
+margin: 1.1em;
+width: 200px;
+height: 300px;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+display: inline-block;
+}
 
 /* End of CSS by Jeffrey */

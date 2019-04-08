@@ -391,8 +391,8 @@ text-align: center;
 /* CSS by Jonathan */
 
 .content_box {
-	margin-left:110px;
-	margin-right:110px;
+	margin-left:5%;
+	margin-right:5%;
 }
 
 input[type=text], select {

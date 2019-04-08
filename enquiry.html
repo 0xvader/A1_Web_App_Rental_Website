@@ -94,8 +94,27 @@
 			<option value="Offices">Offices</option> 
 			<option value="Shops">Shops</option>
 			</select> 
-		<label>Rental duration (days)<input type="number" name="rentalduration" min="0" max="200" value="1" required="required"/></label>
-		<input type="message" id="message" name="enquiry" placeholder="Your enquiry" size="10" required="required"/>
+		<label for="product">Product name</label>
+			<select name="product" id="product">
+			<option value="Two-Bedroom Apartment" selected="selected">Two-Bedroom Apartment</option>
+			<option value="D'Glass Studio Apartment">D'Glass Studio Apartment</option> 
+			<option value="Breezehome Apartment">Breezehome Apartment</option> 
+			<option value="Highfields Apartment">Highfields Apartment</option>
+			<option value="Horizons Deluxe Apartment">Horizons Deluxe Apartment</option>
+			<option value="Small internal office">Small internal office</option>
+			<option value="Medium internal office">Medium internal office</option>
+			<option value="Small window office">Small window office</option>
+			<option value="Medium window office">Medium window office</option>
+			<option value="Large window office">Large window office</option>
+			<option value="Small-sized shop">Small-sized shop</option>
+			<option value="Small-sized shop">Small-sized shop</option>
+			<option value="Medium-sized shop">Medium-sized shop</option>
+			<option value="Medium-sized shop">Medium-sized shop</option>
+			<option value="Large-sized shop">Large-sized shop</option>
+			<option value="Premium shop">Premium shop</option>
+			</select> 	
+		<label>Rental duration (months)<input type="number" name="rentalduration" min="0" max="200" value="1" required="required"/></label>
+		<input type="message" id="message" name="enquiry" placeholder="State the reason for your enquiry" size="10" required="required"/>
 		<input type="submit" value="Submit">
 	</form>
 	

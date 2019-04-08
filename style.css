@@ -294,7 +294,7 @@ text-align: center;
   overflow: hidden;
   height: 150px;
   width: 150px;
-  float: center;
+  float: none;
   position: relative;
   margin: auto;
   top: -60px;
@@ -303,7 +303,7 @@ text-align: center;
 }
 .avatar-flip img {
   position: absolute;
-  float: center;
+  float: none;
   left: 0;
   top: 0;
   border-radius: 100px;
@@ -369,7 +369,7 @@ text-align: center;
 }
 
 #email_foot {
-  float: center;
+  float: none;
   text-align: center;
 }
 
@@ -447,6 +447,20 @@ input[type=submit]:hover {
 background-image: url("images/enquiry_banner_photo.jpg");
 }
 
+.showcase_card_shops{
+float: left;
+background-color: white;
+margin: 1.1em;
+width: 300px;
+height: 380px;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+display: inline-block;
+}
+
+.showcase_card_shops:hover{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 2);
+}
+
 /* End of CSS by Jonathan */
 
 /* Start of CSS by Jeffrey */
@@ -457,7 +471,7 @@ background-image: url("images/enquiry_banner_photo.jpg");
 	font-size:22px;
 	margin-right: 280px;
 	margin-left: 280px;
-	float: center;
+	float: none;
 	text-align: center;
 }
 
@@ -487,7 +501,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
 
 #disclaimer_foot{
-	float: center;
+	float: none;
 	text-align: center;
 }
 

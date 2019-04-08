@@ -390,6 +390,11 @@ text-align: center;
 
 /* CSS by Jonathan */
 
+.content_box {
+	margin-left:110px;
+	margin-right:110px;
+}
+
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;

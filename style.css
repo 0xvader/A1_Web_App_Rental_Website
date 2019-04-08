@@ -273,6 +273,24 @@ color: black;
 text-align: center;
 }
 
+/* Text-within-images css for the product cards */
+
+.photo_container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom_left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-weight: bold;
+}
+
+
+/* End of text-within-images css for the product cards */
+
 /* End of CSS by Ryan */
 
 /* Start of CSS by Alex */
@@ -499,10 +517,12 @@ display: inline-block;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
 
+ 
 .products{
 	width: 300px;
 	height: 200px;
-}
+} 
+
 
 #disclaimer_foot{
 	float: none;

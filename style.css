@@ -268,10 +268,22 @@ padding: 10px;
 color: black;
 }
 
+.product_text_headline{
+color: black;
+text-align: center;
+border-top: 5px solid;
+border-color: #2F8DCD;
+}
+
 .product_text{
 color: black;
 text-align: center;
+padding-top: 11px;
+padding-bottom: 10px;
+border-bottom: 5px solid;
+border-color: #2F8DCD;
 }
+
 
 /* Text-within-images css for the product cards */
 

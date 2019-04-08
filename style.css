@@ -64,6 +64,8 @@ color: white;
 text-decoration: none;
 }
 
+/* ^ This removes the normal styling for links */
+
 /* end of block */
 
 
@@ -144,12 +146,22 @@ color: black;
 }
 
 .menu_banner .menu_about {
-float:right;	
+float:right;
+background-color: #2F8DCD;
+color: white;	
 }
 
 
 /* end of properties for navigation menu */
 
+
+.content_banner{
+background-color: #2F8DCD;
+font-size:40px;
+text-align: center;
+color: white;
+font-family: "Montserrat", sans-serif;
+}
 
 .banner_photo{
 background-color: #cccccc;

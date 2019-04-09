@@ -157,8 +157,10 @@ color: white;
 
 .content_banner{
 background-color: #2F8DCD;
-font-size:40px;
+font-size:30px;
+font-weight: bold;
 text-align: center;
+padding: 15px;
 color: white;
 font-family: "Montserrat", sans-serif;
 }
@@ -171,18 +173,6 @@ background-repeat: no-repeat;
 background-size: cover;
 position: relative;
 }
-
-
-/* Headline style 1
-.headline {
-text-align: center;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: white;
-}
-*/
 
 .headline {
 position: absolute;
@@ -553,6 +543,11 @@ width: 200px;
 height: 300px;
 box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 display: inline-block;
+}
+
+.centering {
+  margin: auto;
+  width: 71%;
 }
 
 /* End of CSS by Jeffrey */

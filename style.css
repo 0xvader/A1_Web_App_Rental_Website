@@ -5,6 +5,10 @@ margin: 0;
 background-color: #F9F9F9;
 }
 
+.centering {
+text-align: center;
+}
+
 h1 {
 font-size:60px;
 }
@@ -81,7 +85,7 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
 .menu_banner a {
-background-color: black;
+background-color: #2F8DCD;
 text-align: center;
 opacity: 0.85;
 float: left;
@@ -543,10 +547,6 @@ width: 200px;
 height: 300px;
 box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 display: inline-block;
-}
-
-.centering {
-text-align: center;
 }
 
 /* End of CSS by Jeffrey */

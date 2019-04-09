@@ -236,7 +236,6 @@ margin: 0.2em;
 }
 
 .showcase_card{
-float: left;
 background-color: white;
 margin: 1.1em;
 width: 300px;
@@ -254,6 +253,8 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 2);
 }
 
 .showcase_text{
+float: left;
+text-align: left;
 padding: 10px;
 color: black;
 }
@@ -506,7 +507,6 @@ background-image: url("images/enquiry_banner_photo.jpg");
 }
 
 .showcase_card_products{
-float: left;
 background-color: white;
 margin: 1.1em;
 width: 300px;
@@ -545,14 +545,8 @@ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 display: inline-block;
 }
 
-.centering_about {
-  margin: auto;
-  width: 71%;
-}
-
-.centering_index {
-  margin: auto;
-  width: 90%;
+.centering {
+text-align: center;
 }
 
 /* End of CSS by Jeffrey */

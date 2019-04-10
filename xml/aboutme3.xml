@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Jonathan Embas</title>
+
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+		
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+
+  <div class="aboutmebody">
+
+
+<header>
+	<div class="menu_banner">
+			<a href="index.html">Home</a>
+			<a href="enquiry.html">Enquiries</a>
+			<div class="dropdown">
+				<a class="dropdown_link" href="product.html">Products</a>
+				<div class="dropdown-content">
+					<a href="apartments.html">Apartments</a>
+					<a href="houses.html">Houses</a>
+					<a href="offices.html">Offices</a>
+					<a href="shops.html">Shops</a>
+				</div>
+			</div>
+			<a class="menu_about" id="active"  href="about.html">About Us</a>
+	</div>
+</header>
+
+
+    <div class="container">
+  <div class="avatar-flip">
+    <img src="images/members/Jonathan.jpeg" alt="Jonathan Embas" height="150" width="150">
+    <img src="images/members/Jonathan2.jpeg" alt="Flipimg" height="150" width="150">
+  </div>
+  <h2 id="aboutmeh2">Jonathan Embas</h2>
+  <h4 id="aboutmeh4">Computer Science</h4>
+  <table class="Contributiontable">
+  <tr class = "Contributiontr">
+    <th class ="Contributionth">Contributions</th>
+  </tr>
+  <tr class = "Contributiontr">
+    <td class= "Contributiontd">1. Enquiries page </td>
+  </tr>
+  <tr class = "Contributiontr">
+    <td class= "Contributiontd">2. Product (Shops) page </td>
+</table>
+<p class="aboutmep">Iban raised in Peninsular Malaysia. Part-time Musician and Athlete.</p>
+<p class="aboutmep">I was born in Miri, Sarawak and lived there for 7 years before I moved to Terengganu. I lived in Terengganu for 5 years and moved to Selangor and based there to this day. I'm a part-time musician in Kuching and also in KL so I travel a lot within these two places. I have been self-taught since I was 10. I play mainly the drums and can also play the guitar, bass guitar and keyboard. I also play futsal for a local club in Kuching called We United.</p>
+  <p id="studentid">StudentID: 101213430</p>
+
+</div>
+  </div>
+  <footer>
+    <p id="email_foot">Contact information: <a href="mailto:101213430@students.swinburne.edu.my">101213430@students.swinburne.edu.my</a>.</p>
+  <table class="footer_table">
+  <tr>
+  	<th><br/> © Beta Real Estate Corporation Sdn Bhd</th>
+  </tr>
+  <tr>
+  	<th>Regional Office</th><th>Hours:</th>
+  </tr>
+  <tr>
+  	<td>
+  		<p>
+  			Jalan Simpang Tiga<br/>
+  			93350 Kuching, Sarawak<br/>
+  			Malaysia<br/>
+  		</p>
+  	</td>
+  	<td>
+  		<p>
+  			Mon-Fri: 9:00 am – 5:00 pm<br/>
+  			Sat-Sun: 1:00 pm - 5:00 pm<br/>
+  			Public holidays: Closed<br/>
+  		</p>
+  	</td>
+  </tr>
+  </table>
+
+
+  </footer>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+		<title>Jeffery Sia</title>
+
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+		
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />		
+  </head>
+
+  <div class="aboutmebody">
+
+
+<header>
+	<div class="menu_banner">
+			<a href="index.html">Home</a>
+			<a href="enquiry.html">Enquiries</a>
+			<div class="dropdown">
+				<a class="dropdown_link" href="product.html">Products</a>
+				<div class="dropdown-content">
+					<a href="apartments.html">Apartments</a>
+					<a href="houses.html">Houses</a>
+					<a href="offices.html">Offices</a>
+					<a href="shops.html">Shops</a>
+				</div>
+			</div>
+			<a class="menu_about" id="active"  href="about.html">About Us</a>
+	</div>
+</header>
+
+
+    <div class="container">
+  <div class="avatar-flip">
+    <img src="images/members/Jeffery.jpeg" alt="Jeffery" height="150" width="150">
+    <img src="images/members/Jeffery2.jpeg" alt="Flipimg" height="150" width="150">
+  </div>
+  <h2 id="aboutmeh2">Jeffery Sia</h2>
+  <h4 id="aboutmeh4">Computer Science</h4>
+  <table class="Contributiontable">
+  <tr class = "Contributiontr">
+    <th class ="Contributionth">Contributions</th>
+  </tr>
+  <tr class = "Contributiontr">
+    <td class= "Contributiontd">1. Disclaimer page</td>
+  </tr>
+  <tr class = "Contributiontr">
+    <td class= "Contributiontd">2. Products(offices) page</td>
+</table>
+<p class="aboutmep">A boy with average height from Sibu, Sarawak, Malaysia. Likes to play games. The most hated thing is working with empty stomach.</p>
+<p class="aboutmep">Sibu, also known as Swan City, its signature food are kompia and kampua noodles.</p>
+  <p id="studentid">StudentID: 101216138</p>
+
+</div>
+  </div>
+  <footer>
+    <p id="email_foot">Contact information: <a href="mailto:101216138@students.swinburne.edu.my">101216138@students.swinburne.edu.my</a>.</p>
+  <table class="footer_table">
+  <tr>
+  	<th><br/> © Beta Real Estate Corporation Sdn Bhd</th>
+  </tr>
+  <tr>
+  	<th>Regional Office</th><th>Hours:</th>
+  </tr>
+  <tr>
+  	<td>
+  		<p>
+  			Jalan Simpang Tiga<br/>
+  			93350 Kuching, Sarawak<br/>
+  			Malaysia<br/>
+  		</p>
+  	</td>
+  	<td>
+  		<p>
+  			Mon-Fri: 9:00 am – 5:00 pm<br/>
+  			Sat-Sun: 1:00 pm - 5:00 pm<br/>
+  			Public holidays: Closed<br/>
+  		</p>
+  	</td>
+  </tr>
+  </table>
+
+
+  </footer>
+</html>

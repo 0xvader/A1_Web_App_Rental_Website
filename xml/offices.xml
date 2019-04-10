@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- To ensure compatibility between different devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+
+<title>Offices</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+</head>
+
+<body>
+
+<header>
+	<div class="menu_banner">
+			<a href="index.html">Home</a>
+			<a href="enquiry.html">Enquiries</a>
+			<div class="dropdown">
+				<a id="active" class="dropdown_link" href="product.html">Products</a>
+				<div class="dropdown-content">
+					<a href="apartments.html">Apartments</a>
+					<a href="houses.html">Houses</a>
+					<a href="offices.html">Offices</a>
+					<a href="shops.html">Shops</a>
+				</div>
+			</div>
+			<a class="menu_about"  href="about.html">About Us</a>
+	</div>
+</header>
+
+<article>
+
+<!-- Main homepage content here -->
+
+<br/>
+<br/>
+
+<!-- Fill in the description. Remember, 200 words for each page. Read the assignment instructions! -->
+
+<br/>
+	
+<div class="content_box">
+
+<br/>
+<h3>Offices</h3>
+
+<!-- photocard links -->
+<div class="centering">
+
+<a href="enquiry.html" class="showcase_card_products">
+<div class="photo_container">
+<img src="images/offices/small_internal.jpeg" alt="Small internal office" class="products">
+<!--Image taken from https://arsitagx-master.s3.ap-southeast-1.amazonaws.com/img_large/2526/1684/14013/photo-working-area-interior-office-edrington-indonesia-desain-arsitek-oleh-dekapolis-architecture-interior-design.jpeg-->
+<div class="bottom_left">Kuching</div>
+</div>
+<div class="showcase_text">
+	<h4>Small internal office</h4>
+	<ul>
+		<li>Monthly rate: RM 800</li>
+		<li>Fitted office suite for small sized business</li>
+		<li>WiFi provided</li>
+		<li>Work areas with essential office stationaries and mechines</li>
+		<li>Daily office cleaning services</li>
+		<li>24×7 access and tight security with CCTV surveillance</li>
+	</ul>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card_products">
+<div class="photo_container">
+<img src="images/offices/medium_internal.jpeg" alt="Medium internal office" class="products">
+<!--Image taken from https://www.nextgenofficefitouts.com.au/wp-content/uploads/2017/03/Agile-Medium-Office-Space-Electric-1024x591.jpg-->
+<div class="bottom_left">Kuching</div>
+</div>
+<div class="showcase_text">
+	<h4>Medium internal office</h4>
+	<ul>
+		<li>Monthly rate: RM 1,100</li>
+		<li>Fitted office suite for small or mid sized business</li>
+		<li>WiFi provided</li>
+		<li>Work areas with essential office stationaries and mechines</li>
+		<li>Daily office cleaning services</li>
+		<li>24×7 access and tight security with CCTV surveillance</li>
+		<li>Cosy pantry areas with free drinks</li>
+	</ul>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card_products">
+<div class="photo_container">
+<img src="images/offices/small_window.jpeg" alt="Small window office" class="products">
+<!--Image taken from https://st.focusedcollection.com/14026668/i/650/focused_176836434-stock-photo-interior-bright-modern-office-separate.jpg-->
+<div class="bottom_left">Selangor</div>
+</div>
+<div class="showcase_text">
+	<h4>Small window office</h4>
+	<ul>
+		<li>Monthly rate: RM 1,000</li>
+		<li>Fitted office suite for small sized business</li>
+		<li>WiFi provided</li>
+		<li>Work areas with essential office stationaries and mechines</li>
+		<li>Daily office cleaning services</li>
+		<li>24×7 access and tight security with CCTV surveillance</li>
+	</ul>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card_products">
+<div class="photo_container">
+<img src="images/offices/medium_window.jpeg" alt="Medium window office" class="products">
+<!--Image taken from http://price-compare.me/wp-content/uploads/2015/10/2399-0-large.jpg-->
+<div class="bottom_left">Kota Kinabalu</div>
+</div>
+<div class="showcase_text">
+	<h4>Medium window office</h4>
+	<ul>
+		<li>Monthly rate: RM 1,500</li>
+		<li>Fitted office suite for small or mid sized business</li>
+		<li>WiFi provided</li>
+		<li>Work areas with essential office stationaries and mechines</li>
+		<li>Daily office cleaning services</li>
+		<li>24×7 access and tight security with CCTV surveillance</li>
+		<li>Cosy pantry areas with free drinks</li>
+	</ul>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card_products">
+<div class="photo_container">
+<img src="images/offices/large_window.jpeg" alt="Large window office" class="products">
+<!--Image taken from https://vizetatrading.com/wp-content/uploads/2018/06/office.jpg-->
+<div class="bottom_left">Kuala Lumpur</div>
+</div>
+<div class="showcase_text">
+<h4>Large window office</h4>
+	<ul>
+		<li>Monthly rate: RM 2,000</li>
+		<li>Fitted office suite for mid or large sized business</li>
+		<li>WiFi provided</li>
+		<li>Work areas with essential office stationaries and mechines</li>
+		<li>Daily office cleaning services</li>
+		<li>24×7 access and tight security with CCTV surveillance</li>
+		<li>Cosy pantry areas with free drinks</li>
+		<li>Restrooms with shower facility</li>
+	</ul>
+</div>
+</a>
+</div>
+
+
+<!-- End of photocard links -->
+
+<br/><br/><br/><br/>
+</div>
+
+</article>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<footer>
+<p id="disclaimer_foot"><a href="disclaimer.html">Disclaimer</a></p>
+<table class="footer_table">
+<tr>
+	<th><br/> © Beta Real Estate Corporation Sdn Bhd</th><th></th>
+</tr>
+<tr>
+	<th>Regional Office</th><th>Hours:</th>
+</tr>
+<tr>
+	<td>
+		<p>
+			Jalan Simpang Tiga<br/>
+			93350 Kuching, Sarawak<br/> 
+			Malaysia<br/>
+		</p>
+	</td>
+	<td>
+		<p>
+			Mon-Fri: 9:00 am – 5:00 pm<br/>
+			Sat-Sun: 1:00 pm - 5:00 pm<br/>
+			Public holidays: Closed<br/>
+		</p>
+	</td>
+</tr>
+</table>
+
+</footer>
+</body>
+
+
+
+
+</html>

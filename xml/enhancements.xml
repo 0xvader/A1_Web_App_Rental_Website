@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Enhancements</title>
+
+	<body>
+<p>Describe each enhancement you have made and how you have significantly extended the basic HTML and CSS beyond what is covered in the Labs: </p>
+<br/>
+<ul>
+<li><a href="aboutme2.html#flipanchor">Flip image effect enhancement hyperlink</a></li>
+</ul>
+
+<p>I added a flip image enhancement as an enhancement. It makes the site look more sleek and proffessional and makes profiles more unique. It gives the profiles more expression. Effects like these are harder to implement without other tools such as webkit or moz. I had to rely on transform, transition in order to achieve this. The assignment did not require any css effects but I thought it would be a good enhancement.</p>
+<ul>
+<li><a href="index.html#youtubeanchor">Youtube video enhancement hyperlink</a></li>
+</ul>
+<p>I added an embedded youtube video as an enhancement. It gives the website a more user-friendly appeal beyond just photos. It gives the user more understanding on what the site is about. I had to use iframe and make sure it fit perfectly with the correct resolution and embedded the youtube link into it. I also had to make sure it was validated with HTML5. I got the idea from the assignment sheet for the enhancement. </p>
+<ul>
+<li><a href="about.html#locationanchor">Google maps location enhancement hyperlink</a></li>
+</ul>
+<p>I added an embedded Google maps location as an enhancement. I had to pick a longitude and latitude for the location that I needed. Finding live location wouldn't work as I need to tell the user where I am based. For that i used longitude and latitude to make sure its accurate and always working. I then used that embedded link, resized the iframe appropriately. The google api allows us to scroll and open the location in a new tab easily in order to get to the location. I got the idea from the assignment sheet for the enhancment. </p>
+</body>

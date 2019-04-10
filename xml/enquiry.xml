@@ -1,0 +1,179 @@
+<!-- Rental Website Homepage -->
+
+		
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- To ensure compatibility between different devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+<meta charset="UTF-8">
+<title>Enquiry</title>
+
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	
+</head>
+
+<body>
+
+
+<!-- Change id to change banner photo. Leave the class alone. -->
+
+<header class="banner_photo" id="enquiry_banner_photo">
+	<div class="menu_banner">
+			<a href="index.html">Home</a>
+			<a id="active" href="enquiry.html">Enquiries</a>
+			<div class="dropdown">
+				<a class="dropdown_link" href="product.html">Products</a>
+				<div class="dropdown-content">
+					<a href="apartments.html">Apartments</a>
+					<a href="houses.html">Houses</a>
+					<a href="offices.html">Offices</a>
+					<a href="shops.html">Shops</a>
+				</div>
+			</div>
+			<a class="menu_about" href="about.html">About Us</a>
+	</div>
+	<div class="headline">
+	<!-- Change this for different pages -->
+	<h1>Have an enquiry?</h1>
+	</div>
+</header>
+
+<article>
+
+<!-- Main content here -->
+
+<br/>
+
+<div class="content_box">
+
+<br/>
+<div class="content_banner">SUBMIT YOUR ENQUIRY HERE</div>
+
+<div>
+	<form>
+		<input type="text" id="fname" name="firstname" placeholder="First name" maxlength="25" pattern="^[a-zA-Z ]+$" required="required"/>
+		<input type="text" id="lname" name="lastname" placeholder="Last name" maxlength="25" pattern="^[a-zA-Z ]+$" required="required"/>
+		<input type="email" id="email" name="contactemail" placeholder="E-mail" required="required"/>		
+		<input type="tel" id="phone" name="phone" placeholder="Phone number" maxlength="10" pattern="\(\d{2}\) +\d{4}" required="required"/>		
+		<fieldset>
+			<legend>Address</legend>
+			<label>Street Address: <input type="text" name="saddress" maxlength="40" required="required"/></label> 
+			<label>City/town: <input type="text" name="saddress" maxlength="20" required="required"/></label>
+			<label for="state">State</label> 
+				<select name="state" id="state">
+				<option value="Sarawak" selected="selected">Sarawak</option>
+				<option value="Johor">Johor</option>
+				<option value="Kedah">Kedah</option>
+				<option value="Kuala Lumpur">Kuala Lumpur</option>
+				<option value="Kelantan">Kelantan</option>
+				<option value="Labuan">Labuan</option>
+				<option value="Malacca">Malacca</option>
+				<option value="Negeri Sembilan">Negeri Sembilan</option>
+				<option value="Pahang">Pahang</option>
+				<option value="Penang">Penang</option>
+				<option value="Perak">Perak</option>
+				<option value="Perlis">Perlis</option>
+				<option value="Putrajaya">Putrajaya</option>
+				<option value="Sabah">Sabah</option>
+				<option value="Selangor">Selangor</option>
+				<option value="Terengganu">Terengganu</option>
+				</select>
+			<label>Postcode<input type="tel" id="postcode" name="postcode" maxlength="5" pattern="\(\d{2}\) +\d{4}" required="required"/></label>
+		</fieldset>
+		<br/> 
+		<label for="product">Product</label>
+			<select name="product" id="product">
+			<option value="Apartments" selected="selected">Apartments</option>
+			<option value="Houses">Houses</option> 
+			<option value="Offices">Offices</option> 
+			<option value="Shops">Shops</option>
+			</select> 
+		<label for="product">Product name</label>
+			<select name="product" id="product">
+			<option value="Two-Bedroom Apartment" selected="selected">Two-Bedroom Apartment</option>
+			<option value="D'Glass Studio Apartment">D'Glass Studio Apartment</option> 
+			<option value="Breezehome Apartment">Breezehome Apartment</option> 
+			<option value="Highfields Apartment">Highfields Apartment</option>
+			<option value="Horizons Deluxe Apartment">Horizons Deluxe Apartment</option>
+			<option value="Small internal office">Small internal office</option>
+			<option value="Medium internal office">Medium internal office</option>
+			<option value="Small window office">Small window office</option>
+			<option value="Medium window office">Medium window office</option>
+			<option value="Large window office">Large window office</option>
+			<option value="Small-sized shop">Small-sized shop (Johor Bahru)</option>
+			<option value="Small-sized shop">Small-sized shop (Kuching)</option>
+			<option value="Medium-sized shop">Medium-sized shop (Subang Jaya)</option>
+			<option value="Medium-sized shop">Medium-sized shop (Kota Kinabalu)</option>
+			<option value="Large-sized shop">Large-sized shop (Kuching)</option>
+			<option value="Premium shop (Kuala Lumpur)">Premium shop (Kuala Lumpur)</option>
+			<option value="Small Downtown Home">Small Downtown Home</option>
+			<option value="Blue Ridge Farmhouse">Blue Ridge Farmhouse</option>
+			<option value="Forest Retreat Cottage">Forest Retreat Cottage</option>
+			<option value="Southern Belle Townhouse">Southern Belle Townhouse</option>
+			<option value="Regal Palmhouse">Regal Palmhouse</option>
+			<option value="Historic Renaissance House">Historic Renaissance House</option>
+			<option value="The Victorian Magic">The Victorian Magic</option>
+			<option value="The Tuscany Classic">The Tuscany Classic</option>
+			<option value="The Spanish Palazzo">The Spanish Palazzo</option>
+			</select> 	
+		<label>Rental duration (months)<input type="number" name="rentalduration" min="0" max="200" value="1" required="required"/></label>
+		<input type="text" id="message" name="enquiry" placeholder="State the reason for your enquiry" size="10" required="required"/>
+		<input type="submit" value="Submit">
+	</form>
+	
+</div>
+
+
+<br/>
+<br/>
+
+</div>
+
+</article>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<footer>
+<p id="disclaimer_foot"><a href="disclaimer.html">Disclaimer</a></p>
+<table class="footer_table">
+<tr>
+	<th><br/> © Beta Real Estate Corporation Sdn Bhd</th>
+</tr>
+<tr>
+	<th>Regional Office</th><th>Hours:</th>
+</tr>
+<tr>
+	<td>
+		<p>
+			Jalan Simpang Tiga<br/>
+			93350 Kuching, Sarawak<br/> 
+			Malaysia<br/>
+		</p>
+	</td>
+	<td>
+		<p>
+			Mon-Fri: 9:00 am – 5:00 pm<br/>
+			Sat-Sun: 1:00 pm - 5:00 pm<br/>
+			Public holidays: Closed<br/>
+		</p>
+	</td>
+</tr>
+</table>
+</footer>
+</body>
+
+
+
+
+</html>

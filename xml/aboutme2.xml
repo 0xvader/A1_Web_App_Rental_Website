@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Alex Haider Abedin</title>
+
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+		
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+
+  <div class="aboutmebody">
+
+
+<header>
+	<div class="menu_banner">
+			<a href="index.html">Home</a>
+			<a href="enquiry.html">Enquiries</a>
+			<div class="dropdown">
+				<a class="dropdown_link" href="product.html">Products</a>
+				<div class="dropdown-content">
+					<a href="apartments.html">Apartments</a>
+					<a href="houses.html">Houses</a>
+					<a href="offices.html">Offices</a>
+					<a href="shops.html">Shops</a>
+				</div>
+			</div>
+			<a class="menu_about" id="active"  href="about.html">About Us</a>
+	</div>
+</header>
+
+    <div class="container">
+  <div class="avatar-flip">
+	<a name="flipanchor"></a>
+    <img src="images/members/Alex.jpeg" alt="Alex Haider" height="150" width="150">
+    <img src="images/members/Alex2.jpg" alt="Flipimg" height="150" width="150">
+  </div>
+  <h2 id="aboutmeh2">Alex Haider Abedin</h2>
+  <h4 id="aboutmeh4">Computer Science</h4>
+  <table class="Contributiontable">
+  <tr class = "Contributiontr">
+    <th class ="Contributionth">Contributions</th>
+  </tr>
+  <tr class = "Contributiontr">
+    <td class= "Contributiontd">1. About, Aboutme pages, Profile flip effect</td>
+  </tr>
+  <tr class = "Contributiontr">
+    <td class= "Contributiontd">2. Product (Houses) Page</td>
+  <tr class = "Contributiontr">
+    <td class= "Contributiontd">3. Enhancements (Profile image flip effect, Embedded youtube video, Google Maps api)</td>	
+</table>
+
+  <p class="aboutmep">I'm an international student studying in Swinburne Malaysia. What I enjoy learning about the most in CS is machine learning and blockchain.</p>
+  <p class="aboutmep">My main hobbies are playing competitive games and going to the gym. I also enjoy taking photos and love photography. In my hometown we love to eat arabian foods such as shawarmas and kababs. I also have a pet dog named Ralph. </p>
+  <p id="studentid">StudentID: 101222478</p>
+
+</div>
+  </div>
+  <footer>
+    <p id="email_foot">Contact information: <a href="mailto:101222478@students.swinburne.edu.my">101222478@students.swinburne.edu.my</a>.</p>
+  <table class="footer_table">
+  <tr>
+  	<th><br/> © Beta Real Estate Corporation Sdn Bhd</th>
+  </tr>
+  <tr>
+  	<th>Regional Office</th><th>Hours:</th>
+  </tr>
+  <tr>
+  	<td>
+  		<p>
+  			Jalan Simpang Tiga<br/>
+  			93350 Kuching, Sarawak<br/>
+  			Malaysia<br/>
+  		</p>
+  	</td>
+  	<td>
+  		<p>
+  			Mon-Fri: 9:00 am – 5:00 pm<br/>
+  			Sat-Sun: 1:00 pm - 5:00 pm<br/>
+  			Public holidays: Closed<br/>
+  		</p>
+  	</td>
+  </tr>
+  </table>
+
+
+  </footer>
+</html>

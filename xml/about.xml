@@ -1,0 +1,136 @@
+<!-- Rental Website Homepage -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- To ensure compatibility between different devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+<meta charset="UTF-8">
+<title>About Us</title>
+
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+</head>
+
+<body>
+
+<!-- Change id to change banner photo. Leave the class alone. -->
+
+<header>
+	<div class="menu_banner">
+			<a href="index.html">Home</a>
+			<a href="enquiry.html">Enquiries</a>
+			<div class="dropdown">
+				<a class="dropdown_link" href="product.html">Products</a>
+				<div class="dropdown-content">
+					<a href="apartments.html">Apartments</a>
+					<a href="houses.html">Houses</a>
+					<a href="offices.html">Offices</a>
+					<a href="shops.html">Shops</a>
+				</div>
+			</div>
+			<a id="active" class="menu_about" href="about.html">About Us</a>
+	</div>
+</header>
+
+<article>
+
+<!-- Main content here -->
+
+<br/>
+<br/>
+<br/>
+<h3>About Us</h3>
+<br/>
+<br/>
+<hr/>
+<br/>
+<p class="page_intro">
+	We are a popular renting platform focusing on property and real estate rentals. Below you will find further details about our members.
+</p>
+<br/>
+<br/>
+<hr/>
+<br/>
+<br/>
+<br/>
+<div class="content_banner">Members</div>
+<div class="centering">
+	<a href="aboutme1.html" class="showcase_profile">
+	<img src="images/members/Ryan.jpeg" alt="Ryan" class="profile">
+	<p style="color: black;">Ryan Then<br/>Team Leader</p>
+	</a>
+
+	<a href="aboutme2.html" class="showcase_profile">
+	<img src="images/members/Alex.jpeg" alt="Alex" class="profile">
+	<p style="color: black;">Alex Haider Abedin<br/>Team Member</p>
+	</a>
+
+	<a href="aboutme3.html" class="showcase_profile">
+	<img src="images/members/Jonathan.jpeg"  alt= "Jonathan" class="profile">
+	<p style="color: black;">Jonathan Embas<br/>Team Member</p>
+	</a>
+
+	<a href="aboutme4.html" class="showcase_profile">
+	<img src="images/members/Jeffery.jpeg" alt= "Jeffery" class="profile">
+	<p style="color: black;">Jeffery Sia<br/>Team Member</p>
+	</a>
+</div>
+<div class="content_banner">Our HQ</div>
+<div class="centering">
+<br/>
+<a name="locationanchor"></a>
+<iframe width="1000" height="500" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63814.26666428048!2d110.357226!3d1.532263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x69cbf290cfd24bb7!2sSwinburne+University+of+Technology+Sarawak+Campus!5e0!3m2!1sen!2smy!4v1554831591380!5m2!1sen!2smy" ></iframe>
+</div>
+<br/>
+<br/>
+
+</article>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<footer>
+<p id="disclaimer_foot"><a href="disclaimer.html">Disclaimer</a></p>
+<table class="footer_table">
+<tr>
+	<th><br/> © Beta Real Estate Corporation Sdn Bhd</th>
+</tr>
+<tr>
+	<th>Regional Office</th><th>Hours:</th>
+</tr>
+<tr>
+	<td>
+		<p>
+			Jalan Simpang Tiga<br/>
+			93350 Kuching, Sarawak<br/>
+			Malaysia<br/>
+		</p>
+	</td>
+	<td>
+		<p>
+			Mon-Fri: 9:00 am – 5:00 pm<br/>
+			Sat-Sun: 1:00 pm - 5:00 pm<br/>
+			Public holidays: Closed<br/>
+		</p>
+	</td>
+</tr>
+</table>
+</footer>
+
+</body>
+
+
+
+
+</html>

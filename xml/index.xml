@@ -1,0 +1,230 @@
+<!-- Rental Website Homepage -->
+
+		
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- To ensure compatibility between different devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+<meta charset="UTF-8">
+<title>Homepage</title>
+
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+</head>
+
+<body>
+
+<header class="banner_photo" id="homepage_banner_photo">
+	<div class="menu_banner">
+			<a id="active" href="index.html">Home</a>
+			<a href="enquiry.html">Enquiries</a>
+			<div class="dropdown">
+				<a class="dropdown_link" href="product.html">Products</a>
+				<div class="dropdown-content">
+					<a href="apartments.html">Apartments</a>
+					<a href="houses.html">Houses</a>
+					<a href="offices.html">Offices</a>
+					<a href="shops.html">Shops</a>
+				</div>
+			</div>
+			<a class="menu_about" href="about.html">About Us</a>
+	</div>
+	<div class="headline">
+		<h1>Beta Real Estate</h1>
+	</div>
+</header>
+
+<article>
+
+<!-- Main homepage content here -->
+
+<br/>
+<hr/>
+<h5>Offices &#183; Apartments &#183; Houses &#183; Shops</h5>
+<div class="centering">
+	<img class="intro_photos" src="images/ind_thumbnail.jpg" alt="ind_thumbnail">
+	<img class="intro_photos" src="images/shop_thumbnail.jpg" alt="shop_thumbnail">
+	<img class="intro_photos" src="images/off_thumbnail.jpg" alt="office_thumbnail">
+	<img class="intro_photos" src="images/liv_thumbnail.jpg" alt="room_thumbnail">
+	<br/>
+</div>
+
+<p class="page_intro">
+	Finding your next home or commercial property begins with Beta Real Estate. 
+	We offer the best prices available on the market in all thirteen states in 
+	Malaysia and provide an intuitive search experience with our unique website 
+	design.
+</p>
+<br/>
+<hr/>
+<br/>
+<br/>
+<div class="centering">
+	<a name="youtubeanchor"></a>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/Ynr4o0eOjdg">
+</iframe>
+</div>
+
+<br/>
+<br/>
+	
+<div class="content_box">
+
+<br/>
+<div class="content_banner">LATEST PROJECTS</div>
+<div class="centering">
+
+<!-- photocard links -->
+
+<a href="enquiry.html" class="showcase_card">
+<div class="photo_container">
+	<img src="images/apartments/horizons_deluxe.jpeg" alt="Horizons Deluxe Apartment" class="products">
+	<!--Image taken from https://t-ec.bstatic.com/images/hotel/max1024x768/134/134074073.jpg-->
+	<div class="bottom_left">Subang Jaya</div>
+</div>
+<div class="showcase_text">
+<h4>Horizons Deluxe Apartment</h4>
+	<p>Monthly rate: RM 2,950</p>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card">
+<div class="photo_container">
+	<img src="images/apartments/d'glass_studio.jpeg" alt="D'Glass Studio Apartment" class="products">
+	<!--Image taken from http://cdn.home-designing.com/wp-content/uploads/2014/06/floor-to-ceiling-glass-studio.jpeg-->
+	<div class="bottom_left">Ipoh</div>
+</div>
+<div class="showcase_text">
+	<h4>D'Glass Studio Apartment</h4>
+	<p>Monthly rate: RM 1,500</p>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card">
+<div class="photo_container">
+<img src="images/houses/townhouse.jpg" alt="Southern Belle Townhouse" class="products">
+<!--Image taken from https://odis.homeaway.com/odis/listing/f764043c-c879-4ac2-991c-39baf3cb22de.c10.jpg-->
+<div class="bottom_left">Penang</div>
+</div>
+<div class="showcase_text">
+	<h4>Southern Belle Townhouse</h4>
+	<p>Monthly rate: RM 1,900</p>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card">
+<div class="photo_container">
+<img src="images/houses/spanishpalazzo.jpg" alt="The Spanish Palazzo" class="products">
+<!--Image taken from https://odis.homeaway.com/odis/listing/af43ecaa-1153-4280-9f4a-1442b3b5a193.c10.jpg-->
+<div class="bottom_left">Kuala Lumpur</div>
+</div>
+<div class="showcase_text">
+	<h4>The Spanish Palazzo</h4>
+	<p>Monthly rate: RM 5,500</p>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card">
+<div class="photo_container">
+<img src="images/offices/large_window.jpeg" alt="Large window office" class="products">
+<!--Image taken from https://vizetatrading.com/wp-content/uploads/2018/06/office.jpg-->
+<div class="bottom_left">Kuala Lumpur</div>
+</div>
+<div class="showcase_text">
+<h4>Large window office</h4>
+	<p>Monthly rate: RM 2,000</p>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card">
+<div class="photo_container">
+<img src="images/offices/medium_window.jpeg" alt="Medium window office" class="products">
+<!--Image taken from http://price-compare.me/wp-content/uploads/2015/10/2399-0-large.jpg-->
+<div class="bottom_left">Kota Kinabalu</div>
+</div>
+<div class="showcase_text">
+	<h4>Medium window office</h4>
+	<p>Monthly rate: RM 1,500</p>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card">
+<div class="photo_container">
+	<img src="images/shops/premium_shop.jpg" alt= "premium shop" class="products">
+	<!--Image taken from http://glamshops.net/reviews/porsche-store-design-in-singapore-->
+	<div class="bottom_left">Kuala Lumpur</div>
+</div>
+<div class="showcase_text">
+	<h4>Premium shop</h4>
+	<p>Monthly rate: RM 11,500</p>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card">
+<div class="photo_container">
+	<img src="images/shops/large_sized_shop.jpg" alt="large sized shop" class="products">
+	<!--Image taken from https://sognidarte.com/img/-->
+	<div class="bottom_left">Kuching</div>
+</div>
+<div class="showcase_text">
+	<h4>Large-sized shop</h4>
+	<p>Monthly rate: RM 3,900</p>
+</div>
+</a>
+</div>
+<!-- End of photocard links -->
+
+<br/><br/><br/><br/>
+</div>
+
+</article>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<footer>
+<p id="disclaimer_foot"><a href="disclaimer.html">Disclaimer</a></p>
+
+<table class="footer_table">
+<tr>
+	<th><br/> © Beta Real Estate Corporation Sdn Bhd</th>
+</tr>
+<tr>
+	<th>Regional Office</th><th>Hours:</th>
+</tr>
+<tr>
+	<td>
+		<p>
+			Jalan Simpang Tiga<br/>
+			93350 Kuching, Sarawak<br/> 
+			Malaysia<br/>
+		</p>
+	</td>
+	<td>
+		<p>
+			Mon-Fri: 9:00 am – 5:00 pm<br/>
+			Sat-Sun: 1:00 pm - 5:00 pm<br/>
+			Public holidays: Closed<br/>
+		</p>
+	</td>
+</tr>
+</table>
+
+</footer>
+
+</body>
+
+
+
+
+</html>

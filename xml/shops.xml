@@ -1,0 +1,215 @@
+<!-- Rental Website Homepage -->
+
+		
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- To ensure compatibility between different devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+<meta charset="UTF-8">
+<title>Shops</title>
+
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+</head>
+
+<body>
+
+<header>
+	<div class="menu_banner">
+			<a href="index.html">Home</a>
+			<a href="enquiry.html">Enquiries</a>
+			<div class="dropdown">
+				<a id="active" class="dropdown_link" href="product.html">Products</a>
+				<div class="dropdown-content">
+					<a href="apartments.html">Apartments</a>
+					<a href="houses.html">Houses</a>
+					<a href="offices.html">Offices</a>
+					<a href="shops.html">Shops</a>
+				</div>
+			</div>
+			<a class="menu_about"  href="about.html">About Us</a>
+	</div>
+</header>
+
+<article>
+
+<!-- Main homepage content here -->
+
+<br/>
+<br/>
+
+<!-- Fill in the description. Remember, 200 words for each page. Read the assignment instructions! -->
+
+<br/>
+	
+<div class="content_box">
+
+<br/>
+<h3>Shops</h3>
+
+<!-- photocard links -->
+<div class="centering">
+
+<a href="enquiry.html" class="showcase_card_products">
+<div class="photo_container">
+	<img src="images/shops/small_sized_shop.jpg" alt="small_sized_shop" class="products">
+	<!--Image taken from https://my-infinity.co.uk/shops/small-boutique-interior-design-ideas-small-clothing-store-interior-design-download-3d-house-interior-window-molding-ideas/-->
+		<div class="bottom_left">Johor Bahru</div>
+</div>
+<div class="showcase_text">
+	<h4>Small-sized shop</h4>
+	<ul>
+		<li>Monthly rate: RM 700</li> 
+		<li>Floor size: 500sqft</li> 
+		<li>RM 1.40 psf</li> 
+		<li>Fully furnished</li> 
+		<li>Facilities: Lifts, restrooms</li>
+	</ul>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card_products">
+<div class="photo_container">
+	<img src="images/shops/small_sized_shop2.jpg" alt="small_sized_shop2" class="products">
+	<!--Image taken from https://apartmentsbronx.us/small-boutique-interior-design-ideas.html-->
+	<div class="bottom_left">Kuching</div>
+</div>
+<div class="showcase_text">
+	<h4>Small-sized shop</h4>
+	<ul>
+		<li>Monthly rate: RM 800</li> 
+		<li>Floor size: 600sqft</li> 
+		<li>RM 1.60 psf</li> 
+		<li>Fully furnished</li> 
+		<li>Facilities: Lifts, restrooms</li>
+	</ul>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card_products">
+<div class="photo_container">
+	<img src="images/shops/medium_sized_shop.jpg" alt="medium_sized_shop" class="products">
+	<!--Image taken from http://tuaim.me/cafe-shop-design/cafe-shop-design-coffee-shop-interior-design-services-contracting-coffee-shop-design-small/-->
+	<div class="bottom_left">Subang Jaya</div>
+</div>
+<div class="showcase_text">
+	<h4>Medium-sized shop</h4>
+	<ul>
+		<li>Monthly rate: RM 1,400</li> 
+		<li>Floor size: 1400sqft</li> 
+		<li>RM 1.20 psf</li> 
+		<li>Fully furnished</li> 
+		<li>Facilities: Lifts, restrooms, car parking bays</li>
+	</ul>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card_products">
+<div class="photo_container">
+	<img src="images/shops/medium_sized_shop2.jpg" alt="medium_sized_shop2" class="products">
+	<!--Image taken from http://thesmartmarketing.me/coffee-shop-interior-design-ideas/coffee-shop-interior-design-ideas-coffee-shop-lighting-modern-fine-dining-restaurant-design-of-the-coffee-shop-coffee-shop-interior-design-pictures/-->
+	<div class="bottom_left">Kota Kinabalu</div>
+</div>
+<div class="showcase_text">
+	<h4>Medium-sized shop</h4>
+	<ul>
+		<li>Monthly rate: RM 2,000</li> 
+		<li>Floor size: 1900sqft</li> 
+		<li>RM 1.80 psf</li> 
+		<li>Fully furnished</li> 
+		<li>Facilities: Lifts, restrooms, car parking bays</li>
+	</ul>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card_products">
+<div class="photo_container">
+	<img src="images/shops/large_sized_shop.jpg" alt="large_sized_shop" class="products">
+	<!--Image taken from https://sognidarte.com/img/-->
+	<div class="bottom_left">Kuching</div>
+</div>
+<div class="showcase_text">
+	<h4>Large-sized shop</h4>
+	<ul>
+		<li>Monthly rate: RM 3,900</li> 
+		<li>Floor size: 3150sqft</li> 
+		<li>RM 2.00 psf</li> 
+		<li>Fully furnished</li> 
+		<li>Facilities: Escalator, lifts, restrooms, car parking bays</li>
+	</ul>
+</div>
+</a>
+
+<a href="enquiry.html" class="showcase_card_products">
+<div class="photo_container">
+	<img src="images/shops/premium_shop.jpg" alt="premium_shop" class="products">
+	<!--Image taken from http://glamshops.net/reviews/porsche-store-design-in-singapore-->
+	<div class="bottom_left">Kuala Lumpur</div>
+</div>
+<div class="showcase_text">
+	<h4>Premium shop</h4>
+	<ul>
+		<li>Monthly rate: RM 11,500</li> 
+		<li>Floor size: 2900sqft</li> 
+		<li>RM 4.50 psf</li> 
+		<li>Fully furnished</li> 
+		<li>Facilities: Escalator, lifts, restrooms, car parking bays</li>
+	</ul>
+</div>
+</a>
+
+</div>
+
+<!-- End of photocard links -->
+
+<br/><br/><br/><br/>
+</div>
+
+</article>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<footer>
+<p id="disclaimer_foot"><a href="disclaimer.html">Disclaimer</a></p>
+<table class="footer_table">
+<tr>
+	<th><br/> © Beta Real Estate Corporation Sdn Bhd</th>
+</tr>
+<tr>
+	<th>Regional Office</th><th>Hours:</th>
+</tr>
+<tr>
+	<td>
+		<p>
+			Jalan Simpang Tiga<br/>
+			93350 Kuching, Sarawak<br/> 
+			Malaysia<br/>
+		</p>
+	</td>
+	<td>
+		<p>
+			Mon-Fri: 9:00 am – 5:00 pm<br/>
+			Sat-Sun: 1:00 pm - 5:00 pm<br/>
+			Public holidays: Closed<br/>
+		</p>
+	</td>
+</tr>
+</table>
+
+</footer>
+</body>
+
+
+
+
+</html>

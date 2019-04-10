@@ -408,6 +408,7 @@ border-color: #2F8DCD;
 #email_foot {
   float: none;
   text-align: center;
+  color: white;
 }
 
 /* End of CSS by Alex */
@@ -517,6 +518,8 @@ width: 300px;
 height: 540px;
 box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 display: inline-block;
+border-bottom: 5px solid;
+border-color: #2F8DCD;
 }
 
 .showcase_card_products:hover{

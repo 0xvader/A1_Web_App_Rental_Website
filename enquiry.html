@@ -15,7 +15,23 @@
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+<script>
+  
+function validateForm(){
+
+// Name validation
+	var name = document.getElementById("fname").value;
+	var nameVal = /^[A-Z]/;
+	var nameResult = nameVal.test(fname);
 	
+	if (nameResult == false){
+		alert("Please enter a valid name!");
+	}
+
+	}
+</script>
+
 </head>
 
 <body>
@@ -88,7 +104,7 @@
 		</fieldset>
 		<br/> 
 		<label for="product">Product</label>
-			<select name="product" id="product">
+			<select name="product_class" id="product_class">
 			<option value="Apartments" selected="selected">Apartments</option>
 			<option value="Houses">Houses</option> 
 			<option value="Offices">Offices</option> 

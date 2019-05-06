@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Enhancements</title>
-
+  </head>
+	
 	<body>
 <p>Describe each enhancement you have made and how you have significantly extended the basic HTML and CSS beyond what is covered in the Labs: </p>
 <br/>
@@ -21,3 +22,5 @@
 </ul>
 <p>I added an embedded Google maps location as an enhancement. I had to pick a longitude and latitude for the location that I needed. Finding live location wouldn't work as I need to tell the user where I am based. For that i used longitude and latitude to make sure its accurate and always working. I then used that embedded link, resized the iframe appropriately. The google api allows us to scroll and open the location in a new tab easily in order to get to the location. I got the idea from the assignment sheet for the enhancment. </p>
 </body>
+
+</html>

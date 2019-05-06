@@ -6,13 +6,13 @@
 
 
 <!-- To ensure compatibility between different devices -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <title>Shops</title>
 
-<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
 </head>
@@ -57,7 +57,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-	<img src="images/shops/small_sized_shop.jpg" alt="small_sized_shop" class="products">
+	<img src="images/shops/small_sized_shop.jpg" alt="small_sized_shop" class="products" />
 	<!--Image taken from https://my-infinity.co.uk/shops/small-boutique-interior-design-ideas-small-clothing-store-interior-design-download-3d-house-interior-window-molding-ideas/-->
 		<div class="bottom_left">Johor Bahru</div>
 </div>
@@ -75,7 +75,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-	<img src="images/shops/small_sized_shop2.jpg" alt="small_sized_shop2" class="products">
+	<img src="images/shops/small_sized_shop2.jpg" alt="small_sized_shop2" class="products" />
 	<!--Image taken from https://apartmentsbronx.us/small-boutique-interior-design-ideas.html-->
 	<div class="bottom_left">Kuching</div>
 </div>
@@ -93,7 +93,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-	<img src="images/shops/medium_sized_shop.jpg" alt="medium_sized_shop" class="products">
+	<img src="images/shops/medium_sized_shop.jpg" alt="medium_sized_shop" class="products" />
 	<!--Image taken from http://tuaim.me/cafe-shop-design/cafe-shop-design-coffee-shop-interior-design-services-contracting-coffee-shop-design-small/-->
 	<div class="bottom_left">Subang Jaya</div>
 </div>
@@ -111,7 +111,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-	<img src="images/shops/medium_sized_shop2.jpg" alt="medium_sized_shop2" class="products">
+	<img src="images/shops/medium_sized_shop2.jpg" alt="medium_sized_shop2" class="products" />
 	<!--Image taken from http://thesmartmarketing.me/coffee-shop-interior-design-ideas/coffee-shop-interior-design-ideas-coffee-shop-lighting-modern-fine-dining-restaurant-design-of-the-coffee-shop-coffee-shop-interior-design-pictures/-->
 	<div class="bottom_left">Kota Kinabalu</div>
 </div>
@@ -129,7 +129,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-	<img src="images/shops/large_sized_shop.jpg" alt="large_sized_shop" class="products">
+	<img src="images/shops/large_sized_shop.jpg" alt="large_sized_shop" class="products" />
 	<!--Image taken from https://sognidarte.com/img/-->
 	<div class="bottom_left">Kuching</div>
 </div>
@@ -147,7 +147,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-	<img src="images/shops/premium_shop.jpg" alt="premium_shop" class="products">
+	<img src="images/shops/premium_shop.jpg" alt="premium_shop" class="products" />
 	<!--Image taken from http://glamshops.net/reviews/porsche-store-design-in-singapore-->
 	<div class="bottom_left">Kuala Lumpur</div>
 </div>

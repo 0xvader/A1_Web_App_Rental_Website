@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
 		<title>Jeffery Sia</title>
 
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
 		
 		<link rel="icon" type="image/x-icon" href="favicon.ico" />		
   </head>
@@ -32,8 +32,8 @@
 
     <div class="container">
   <div class="avatar-flip">
-    <img src="images/members/Jeffery.jpeg" alt="Jeffery" height="150" width="150">
-    <img src="images/members/Jeffery2.jpeg" alt="Flipimg" height="150" width="150">
+    <img src="images/members/Jeffery.jpeg" alt="Jeffery" height="150" width="150" />
+    <img src="images/members/Jeffery2.jpeg" alt="Flipimg" height="150" width="150" />
   </div>
   <h2 id="aboutmeh2">Jeffery Sia</h2>
   <h4 id="aboutmeh4">Computer Science</h4>
@@ -46,6 +46,7 @@
   </tr>
   <tr class = "Contributiontr">
     <td class= "Contributiontd">2. Products(offices) page</td>
+  </tr>
 </table>
 <p class="aboutmep">A boy with average height from Sibu, Sarawak, Malaysia. Likes to play games. The most hated thing is working with empty stomach.</p>
 <p class="aboutmep">Sibu, also known as Swan City, its signature food are kompia and kampua noodles.</p>

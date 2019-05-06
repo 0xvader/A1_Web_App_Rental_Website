@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Jonathan Embas</title>
 
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
 		
 		<link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
@@ -32,8 +32,8 @@
 
     <div class="container">
   <div class="avatar-flip">
-    <img src="images/members/Jonathan.jpeg" alt="Jonathan Embas" height="150" width="150">
-    <img src="images/members/Jonathan2.jpeg" alt="Flipimg" height="150" width="150">
+    <img src="images/members/Jonathan.jpeg" alt="Jonathan Embas" height="150" width="150" />
+    <img src="images/members/Jonathan2.jpeg" alt="Flipimg" height="150" width="150" />
   </div>
   <h2 id="aboutmeh2">Jonathan Embas</h2>
   <h4 id="aboutmeh4">Computer Science</h4>
@@ -46,6 +46,7 @@
   </tr>
   <tr class = "Contributiontr">
     <td class= "Contributiontd">2. Product (Shops) page </td>
+	</tr>
 </table>
 <p class="aboutmep">Iban raised in Peninsular Malaysia. Part-time Musician and Athlete.</p>
 <p class="aboutmep">I was born in Miri, Sarawak and lived there for 7 years before I moved to Terengganu. I lived in Terengganu for 5 years and moved to Selangor and based there to this day. I'm a part-time musician in Kuching and also in KL so I travel a lot within these two places. I have been self-taught since I was 10. I play mainly the drums and can also play the guitar, bass guitar and keyboard. I also play futsal for a local club in Kuching called We United.</p>

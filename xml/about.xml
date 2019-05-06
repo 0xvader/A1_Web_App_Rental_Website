@@ -6,13 +6,13 @@
 
 
 <!-- To ensure compatibility between different devices -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <title>About Us</title>
 
-<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
 
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
@@ -63,22 +63,22 @@
 <div class="content_banner">Members</div>
 <div class="centering">
 	<a href="aboutme1.html" class="showcase_profile">
-	<img src="images/members/Ryan.jpeg" alt="Ryan" class="profile">
+	<img src="images/members/Ryan.jpeg" alt="Ryan" class="profile" />
 	<p style="color: black;">Ryan Then<br/>Team Leader</p>
 	</a>
 
 	<a href="aboutme2.html" class="showcase_profile">
-	<img src="images/members/Alex.jpeg" alt="Alex" class="profile">
+	<img src="images/members/Alex.jpeg" alt="Alex" class="profile" />
 	<p style="color: black;">Alex Haider Abedin<br/>Team Member</p>
 	</a>
 
 	<a href="aboutme3.html" class="showcase_profile">
-	<img src="images/members/Jonathan.jpeg"  alt= "Jonathan" class="profile">
+	<img src="images/members/Jonathan.jpeg"  alt= "Jonathan" class="profile" />
 	<p style="color: black;">Jonathan Embas<br/>Team Member</p>
 	</a>
 
 	<a href="aboutme4.html" class="showcase_profile">
-	<img src="images/members/Jeffery.jpeg" alt= "Jeffery" class="profile">
+	<img src="images/members/Jeffery.jpeg" alt= "Jeffery" class="profile" />
 	<p style="color: black;">Jeffery Sia<br/>Team Member</p>
 	</a>
 </div>

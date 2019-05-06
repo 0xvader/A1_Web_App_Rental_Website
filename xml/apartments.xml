@@ -6,13 +6,13 @@
 
 
 <!-- To ensure compatibility between different devices -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <title>Apartments</title>
 
-<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
 </head>
@@ -56,7 +56,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-	<img src="images/apartments/two_bedroom.jpeg" alt="Two-Bedroom Apartment" class="products">
+	<img src="images/apartments/two_bedroom.jpeg" alt="Two-Bedroom Apartment" class="products" />
 	<!--Image taken from https://perth.frasershospitality.com/d/fsperth/media/Images/__thumbs_1050_567_crop/Two-bedroom-apartment-bedroom.jpg-->
 	<div class="bottom_left">Kuching</div>
 </div>
@@ -78,7 +78,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-	<img src="images/apartments/d'glass_studio.jpeg" alt="D'Glass Studio Apartment" class="products">
+	<img src="images/apartments/d'glass_studio.jpeg" alt="D'Glass Studio Apartment" class="products" />
 	<!--Image taken from http://cdn.home-designing.com/wp-content/uploads/2014/06/floor-to-ceiling-glass-studio.jpeg-->
 	<div class="bottom_left">Ipoh</div>
 </div>
@@ -98,7 +98,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-	<img src="images/apartments/breeze.jpeg" alt="Breezehome Apartment" class="products">
+	<img src="images/apartments/breeze.jpeg" alt="Breezehome Apartment" class="products" />
 	<!--Image taken from https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXtPpeU071nKAzOZLzAgRwf_hfZ1BrQiS_3A7r6RnP3ZI-fLwF-->
 	<div class="bottom_left">Johor Bahru</div>
 </div>
@@ -117,7 +117,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-	<img src="images/apartments/highfields.jpeg" alt="Highfields Apartment" class="products">
+	<img src="images/apartments/highfields.jpeg" alt="Highfields Apartment" class="products" />
 	<!--Image taken from https://www.harveynormancommercial.com.au/media/wysiwyg/recent-projects-media/2017_HNCD%20Website_RecentDevelopments_HighfieldApartments.jpg-->
 	<div class="bottom_left">Klang</div>
 </div>
@@ -138,7 +138,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-	<img src="images/apartments/horizons_deluxe.jpeg" alt="Horizons Deluxe Apartment" class="products">
+	<img src="images/apartments/horizons_deluxe.jpeg" alt="Horizons Deluxe Apartment" class="products" />
 	<!--Image taken from https://t-ec.bstatic.com/images/hotel/max1024x768/134/134074073.jpg-->
 	<div class="bottom_left">Subang Jaya</div>
 </div>

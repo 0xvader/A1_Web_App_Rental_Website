@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Alex Haider Abedin</title>
 
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
 		
 		<link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
@@ -32,8 +32,8 @@
     <div class="container">
   <div class="avatar-flip">
 	<a name="flipanchor"></a>
-    <img src="images/members/Alex.jpeg" alt="Alex Haider" height="150" width="150">
-    <img src="images/members/Alex2.jpg" alt="Flipimg" height="150" width="150">
+    <img src="images/members/Alex.jpeg" alt="Alex Haider" height="150" width="150" />
+    <img src="images/members/Alex2.jpg" alt="Flipimg" height="150" width="150" />
   </div>
   <h2 id="aboutmeh2">Alex Haider Abedin</h2>
   <h4 id="aboutmeh4">Computer Science</h4>
@@ -46,8 +46,10 @@
   </tr>
   <tr class = "Contributiontr">
     <td class= "Contributiontd">2. Product (Houses) Page</td>
+	</tr>
   <tr class = "Contributiontr">
     <td class= "Contributiontd">3. Enhancements (Profile image flip effect, Embedded youtube video, Google Maps api)</td>	
+	</tr>
 </table>
 
   <p class="aboutmep">I'm an international student studying in Swinburne Malaysia. What I enjoy learning about the most in CS is machine learning and blockchain.</p>

@@ -17,19 +17,30 @@
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
 <script>
-  
-function validateForm(){
+	  
 
-// Name validation
-	var name = document.getElementById("fname").value;
-	var nameVal = /^[A-Z]/;
-	var nameResult = nameVal.test(fname);
-	
-	if (nameResult == false){
-		alert("Please enter a valid name!");
-	}
-
-	}
+		var decrepit_house = "<li>Monthly rate: RM 1,200</li>"+
+		"<li>House: 1150 sq. ft.</li>"+
+		"<li>Rooms: 3 Bedrooms with King size beds. 2 Spacious Living Rooms. 2 Bathrooms.</li>"+
+		"<li>Amenities: Wifi, TV, Washer, Air Conditioning, Heater, Hot Tub.</li>"+
+		"<li>Extras: Free-Parking, Barbeque Grill Pit.</li>";
+		
+		var fancy_apartment = "<li>Monthly rate: RM 1,400</li>"+
+		"<li>House: 1500 sq. ft.</li>"+
+		"<li>Rooms: 4 Bedrooms with King size beds. 1 Spacious Living Rooms. 3 Bathrooms.</li>"+
+		"<li>Amenities: Wifi, TV, Washer, Air Conditioning, Fireplace Heater, Hot Tub, Kitchen.</li>"+
+		"<li>Extras: Free-Parking, Barbeque Grill Pit.</li>";
+	  
+       function product_description()
+        {
+		if(document.getElementById("product").value == "h1"){
+		document.getElementById("demo").innerHTML = decrepit_house; 
+		}
+		if(document.getElementById("product").value == "a1"){
+		document.getElementById("demo").innerHTML = fancy_apartment; 
+		}
+        }   
+		
 </script>
 
 </head>
@@ -69,7 +80,7 @@ function validateForm(){
 <div class="content_box">
 
 <br/>
-<div class="content_banner">SUBMIT YOUR ENQUIRY HERE</div>
+<div class="content_banner">COMPOSE AND SUBMIT YOUR ENQUIRY HERE</div>
 
 <div>
 	<form>
@@ -104,7 +115,7 @@ function validateForm(){
 		</fieldset>
 		<br/> 
 		<label for="product">Product</label>
-			<select name="product_class" id="product_class">
+			<select name="product_type" id="product_type">
 			<option value="Apartments" selected="selected">Apartments</option>
 			<option value="Houses">Houses</option> 
 			<option value="Offices">Offices</option> 
@@ -140,6 +151,7 @@ function validateForm(){
 			</select> 	
 		<label>Rental duration (months)<input type="number" name="rentalduration" min="0" max="200" value="1" required="required"/></label>
 		<input type="text" id="message" name="enquiry" placeholder="State the reason for your enquiry" size="10" required="required"/>
+		<input type="text" id="demo"/>
 		<input type="submit" value="Submit">
 	</form>
 	

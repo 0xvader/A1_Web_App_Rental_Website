@@ -3,13 +3,13 @@
 
 
 <!-- To ensure compatibility between different devices -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <title>Houses</title>
 
-<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
 
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
@@ -55,7 +55,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-<img src="images/houses/smalldowntownhome.jpg" alt="Small Downtown Home" class="products">
+<img src="images/houses/smalldowntownhome.jpg" alt="Small Downtown Home" class="products" />
 <!--Image taken from https://odis.homeaway.com/odis/listing/0f3cf0c3-b223-4484-a949-38cfcbee0040.c10.jpg-->
 <div class="bottom_left">Kuching</div>
 </div>
@@ -74,7 +74,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-<img src="images/houses/BlueRidgeFarmhouse.jpg" alt="Blue Ridge Farmhouse" class="products">
+<img src="images/houses/BlueRidgeFarmhouse.jpg" alt="Blue Ridge Farmhouse" class="products" />
 <!--Image taken from https://odis.homeaway.com/odis/listing/9e2727e2-0aad-4eb0-a273-6a82f8ed7d7d.c10.jpg-->
 <div class="bottom_left">Kuching</div>
 </div>
@@ -93,7 +93,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-<img src="images/houses/Forestretreatcottage.jpg" alt="Forest Retreat Cottage" class="products">
+<img src="images/houses/Forestretreatcottage.jpg" alt="Forest Retreat Cottage" class="products" />
 <!--Image taken from https://odis.homeaway.com/odis/listing/79296671-1554-44c6-b0b3-11c2f2a4d797.c10.jpg-->
 <div class="bottom_left">Johor Bahru</div>
 </div>
@@ -112,7 +112,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-<img src="images/houses/townhouse.jpg" alt="Southern Belle Townhouse" class="products">
+<img src="images/houses/townhouse.jpg" alt="Southern Belle Townhouse" class="products" />
 <!--Image taken from https://odis.homeaway.com/odis/listing/f764043c-c879-4ac2-991c-39baf3cb22de.c10.jpg-->
 <div class="bottom_left">Penang</div>
 </div>
@@ -131,7 +131,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-<img src="images/houses/palmhouse.jpg" alt="Regal Palmhouse" class="products">
+<img src="images/houses/palmhouse.jpg" alt="Regal Palmhouse" class="products" />
 <!--Image taken from https://odis.homeaway.com/odis/listing/0d771ae4-b14b-42a5-a441-b979c5ae9bcf.c10.jpg-->
 <div class="bottom_left">Kota Kinabalu</div>
 </div>
@@ -150,7 +150,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-<img src="images/houses/historichouse.jpg" alt="Historic Renaissance House" class="products">
+<img src="images/houses/historichouse.jpg" alt="Historic Renaissance House" class="products" />
 <!--Image taken from https://odis.homeaway.com/odis/listing/822b96e6-d429-47b1-8d67-958ad2f0eb52.c10.jpg-->
 <div class="bottom_left">Ipoh</div>
 </div>
@@ -169,7 +169,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-<img src="images/houses/victorianhouse.jpg" alt="The Victorian Magic" class="products">
+<img src="images/houses/victorianhouse.jpg" alt="The Victorian Magic" class="products" />
 <!--Image taken from https://odis.homeaway.com/odis/listing/c8ed2a2f-1422-4150-8c12-73c64094b33f.c10.jpg-->
 <div class="bottom_left">Subang Jaya</div>
 </div>
@@ -188,7 +188,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-<img src="images/houses/tuscanyhouse.jpg" alt="The Tuscany Classic" class="products">
+<img src="images/houses/tuscanyhouse.jpg" alt="The Tuscany Classic" class="products" />
 <!--Image taken from https://odis.homeaway.com/odis/listing/6273d99f-6831-4c87-8de3-ff82623a7b71.c10.jpg-->
 <div class="bottom_left">Kuala Lumpur</div>
 </div>
@@ -207,7 +207,7 @@
 
 <a href="enquiry.html" class="showcase_card_products">
 <div class="photo_container">
-<img src="images/houses/spanishpalazzo.jpg" alt="The Spanish Palazzo" class="products">
+<img src="images/houses/spanishpalazzo.jpg" alt="The Spanish Palazzo" class="products" />
 <!--Image taken from https://odis.homeaway.com/odis/listing/af43ecaa-1153-4280-9f4a-1442b3b5a193.c10.jpg-->
 <div class="bottom_left">Kuala Lumpur</div>
 </div>

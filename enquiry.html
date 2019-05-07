@@ -17,28 +17,277 @@
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
 <script>
-	  
 
-		var decrepit_house = "<li>Monthly rate: RM 1,200</li>"+
+		var small_downtown_home = "<li>Monthly rate: RM 1,200</li>"+
 		"<li>House: 1150 sq. ft.</li>"+
 		"<li>Rooms: 3 Bedrooms with King size beds. 2 Spacious Living Rooms. 2 Bathrooms.</li>"+
 		"<li>Amenities: Wifi, TV, Washer, Air Conditioning, Heater, Hot Tub.</li>"+
 		"<li>Extras: Free-Parking, Barbeque Grill Pit.</li>";
 		
-		var fancy_apartment = "<li>Monthly rate: RM 1,400</li>"+
+		var blue_ridge_farmhouse = "<li>Monthly rate: RM 1,400</li>"+
 		"<li>House: 1500 sq. ft.</li>"+
 		"<li>Rooms: 4 Bedrooms with King size beds. 1 Spacious Living Rooms. 3 Bathrooms.</li>"+
 		"<li>Amenities: Wifi, TV, Washer, Air Conditioning, Fireplace Heater, Hot Tub, Kitchen.</li>"+
 		"<li>Extras: Free-Parking, Barbeque Grill Pit.</li>";
 	  
-       function product_description()
+		var forest_retreat_cottage = "<li>Monthly rate: RM 1,400</li>"+
+		"<li>House: 1500 sq. ft.</li>"+
+		"<li>Rooms: 4 Bedrooms with King size beds. 1 Spacious Living Rooms. 3 Bathrooms.</li>"+
+		"<li>Amenities: Wifi, TV, Washer, Air Conditioning, Fireplace Heater, Hot Tub, Kitchen.</li>"+
+		"<li>Extras: Free-Parking, Barbeque Grill Pit.</li>";
+		
+		var southern_belle_townhouse = "<li>Monthly rate: RM 1,900</li>"+
+		"<li>House: 1600 sq. ft.</li>"+
+		"<li>Rooms: 5 Bedrooms with Queen size beds. 1 Living Rooms. 3 Bathrooms. 1 Dining Room.</li>"+
+		"<li>Amenities: Wifi, TV, Washer, Air Conditioning, Shower, Kitchen.</li>"+
+		"<li>Extras: Free-Parking, Swimming pool, Pet Friendly.</li>";
+		
+		var regal_palmhouse = "<li>Monthly rate: RM 1,900</li>"+
+		"<li>House: 1400 sq. ft.</li>"+
+		"<li>Rooms: 4 Bedrooms with Queen size beds. 1 Living Rooms. 2 Bathrooms.</li>"+
+		"<li>Amenities: Wifi, TV, Washer, Air Conditioning, Shower, Kitchen.</li>"+
+		"<li>Extras: Pet Friendly, Barbeque Grill Pit.</li>";
+		
+		var historic_renaissance_house = "<li>Monthly rate: RM 2,600</li>"+
+		"<li>House: 2100 sq. ft.</li>"+
+		"<li>Rooms: 5 Bedrooms with King size beds. 1 Living Rooms. 3 Bathrooms. Formal Dining Room, Movie room.</li>"+
+		"<li>Amenities: Wifi, TV, Washer, Air Conditioning, Shower, Kitchen.</li>"+
+		"<li>Extras: Barbeque Grill Pit, Free Parking, Garden.</li>";
+		
+		var the_victorian_magic = "<li>Monthly rate: RM 2,600</li>"+
+		"<li>House: 2250 sq. ft.</li>"+
+		"<li>Rooms: 5 Bedrooms with King size beds. 2 Living Rooms. 3 Bathrooms. Formal Dining Room, Movie room.</li>"+
+		"<li>Amenities: Wifi, TV, Washer, Air Conditioning, Hot Tub, Kitchen.</li>"+
+		"<li>Extras: Barbeque Grill Pit, Free Parking, Garden.</li>";
+		
+		var the_tuscany_classic = "<li>Monthly rate: RM 3,000</li>"+
+		"<li>House: 2500 sq. ft.</li>"+
+		"<li>Rooms:  5 Bedrooms with King size beds. 2 Living Rooms. 3 Bathrooms. Formal Dining Room, Guest Hall, Movie room.</li>"+
+		"<li>Amenities: Wifi, TV, Washer, Air Conditioning, Hot Tub, Kitchen.</li>"+
+		"<li>Extras: Barbeque Grill Pit, Free Parking, Garden.</li>";
+		
+		var the_spanish_palazzo = "<li>Monthly rate: RM 5,500</li>"+
+		"<li>House: 4000 sq. ft.</li>"+
+		"<li>Rooms:  7 Bedrooms with King size beds. 3 Living Rooms. 5 Bathrooms. Formal Dining Room, Guest Hall, Balcony, Movie room.</li>"+
+		"<li>Amenities: Wifi, TV, Washer, Air Conditioning, Hot Tub, Kitchen.</li>"+
+		"<li>Extras: Barbeque Grill Pit, Free Parking, Garden, Pool, Sauna.</li>";
+		
+		var two_bedroom_apartment = "<li>1,270 sq.ft (RM1.89 per sq.ft)</li>"+
+		"<li>Monthly rate: RM 2,400</li>"+
+		"<li>WiFi provided</li>"+
+		"<li>Located close to international airport</li>"+
+		"<li>Built in 2017</li>"+
+		"<li>Second floor</li>"+
+		"<li>Kitchen with cooking stove provided</li>"+
+		"<li>Patrolling security guards and CCTV surveillance</li>";
+		
+		var glass_studio_apartment = "<li>300 sq.ft (RM5 per sq.ft)</li>"+
+		"<li>Monthly rate: RM 1,500</li>"+
+		"<li>Fully furnished and decorated</li>"+
+		"<li>High Speed WiFi provided</li>"+
+		"<li>Located close to city center</li>"+
+		"<li>Top floor</li>"+
+		"<li>Patrolling security guards and CCTV surveillance</li>";
+		
+		var breezehome_apartment = "<li>650 sq.ft (RM1.38 per sq.ft)</li>"+
+		"<li>Monthly rate: RM 900</li>"+
+		"<li>Basic furnishing</li>"+
+		"<li>WiFi provided</li>"+
+		"<li>Third floor</li>"+
+		"<li>Building secured with ID card system</li>";
+		
+		var highfields_apartment = "800 sq.ft (RM1.12 per sq.ft)</li>"+
+		"<li>Monthly rate: RM 900</li>"+
+		"<li>Basic furnishings</li>"+
+		"<li>Five miles from city center</li>"+
+		"<li>Close to central bus station</li>"+
+		"<li>First floor</li>"+
+		"<li>Kitchen with cooking stove provided</li>"+
+		"<li>Basic security with CCTV surveillance</li>";
+		
+		var horizons_deluxe_apartment = "1,345 sq.ft (RM2.19 per sq.ft)</li>"+
+		"<li>Monthly rate: RM 2,950</li>"+
+		"<li>Fully furnished</li>"+
+		"<li>Fully equipped kitchen with exhaust system</li>"+
+		"<li>High-speed WiFi provided</li>"+
+		"<li>Located in city center</li>"+
+		"<li>Second floor</li>"+
+		"<li>Great view of the city skyline</li>"+
+		"<li>Patrolling security guards and CCTV surveillance</li>";
+		
+		var small_internal_office = "Monthly rate: RM 800</li>"+
+		"<li>Fitted office suite for small sized business</li>"+
+		"<li>WiFi provided</li>"+
+		"<li>Work areas with essential office stationaries and mechines</li>"+
+		"<li>Daily office cleaning services</li>"+
+		"<li>24×7 access and tight security with CCTV surveillance</li>";
+		
+		var medium_internal_office = "Monthly rate: RM 1,100</li>"+
+		"<li>Fitted office suite for small or mid sized business</li>"+
+		"<li>WiFi provided</li>"+
+		"<li>Work areas with essential office stationaries and mechines</li>"+
+		"<li>Daily office cleaning services</li>"+
+		"<li>24×7 access and tight security with CCTV surveillance</li>"+
+		"<li>Cosy pantry areas with free drinks</li>";
+		
+		var small_window_office = "Monthly rate: RM 1,000</li>"+
+		"<li>Fitted office suite for small sized business</li>"+
+		"<li>WiFi provided</li>"+
+		"<li>Work areas with essential office stationaries and mechines</li>"+
+		"<li>Daily office cleaning services</li>"+
+		"<li>24×7 access and tight security with CCTV surveillance</li>";
+		
+		var medium_window_office = "Monthly rate: RM 1,500</li>"+
+		"<li>Fitted office suite for small or mid sized business</li>"+
+		"<li>WiFi provided</li>"+
+		"<li>Work areas with essential office stationaries and mechines</li>"+
+		"<li>Daily office cleaning services</li>"+
+		"<li>24×7 access and tight security with CCTV surveillance</li>"+
+		"<li>Cosy pantry areas with free drinks</li>";
+		
+		var large_window_office = "Monthly rate: RM 2,000</li>"+
+		"<li>Fitted office suite for small or mid sized business</li>"+
+		"<li>WiFi provided</li>"+
+		"<li>Work areas with essential office stationaries and mechines</li>"+
+		"<li>Daily office cleaning services</li>"+
+		"<li>24×7 access and tight security with CCTV surveillance</li>"+
+		"<li>Cosy pantry areas with free drinks</li>"+
+		"<li>Restrooms with shower facility</li>";
+		
+		var small_sized_shop_johor = "<li>Monthly rate: RM 700</li>"+
+		"<li>Floor size: 500sqft</li>"+
+		"<li>RM 1.40 psf.</li>"+
+		"<li>Fully furnished.</li>"+
+		"<li>Facilities: Lifts, restrooms.</li>";
+		
+		var small_sized_shop_kuching = "<li>Monthly rate: RM 800</li>"+
+		"<li>Floor size: 600sqft</li>"+
+		"<li>RM 1.60 psf.</li>"+
+		"<li>Fully furnished.</li>"+
+		"<li>Facilities: Lifts, restrooms.</li>";
+		
+		var medium_sized_shop_subang = "<li>Monthly rate: RM 1,400</li>"+
+		"<li>Floor size: 1400sqft</li>"+
+		"<li>RM 1.20 psf.</li>"+
+		"<li>Fully furnished.</li>"+
+		"<li>Facilities: Lifts, restrooms, car parking bays.</li>";
+		
+		var medium_sized_shop_kk = "<li>Monthly rate: RM 2,000</li>"+
+		"<li>Floor size: 1900sqft</li>"+
+		"<li>RM 1.80 psf.</li>"+
+		"<li>Fully furnished.</li>"+
+		"<li>Facilities: Lifts, restrooms, car parking bays.</li>";
+		
+		var large_sized_shop_kuching = "<li>Monthly rate: RM 3,900</li>"+
+		"<li>Floor size: 3150sqft</li>"+
+		"<li>RM 2.00 psf.</li>"+
+		"<li>Fully furnished.</li>"+
+		"<li>Facilities: Escalator, Lifts, restrooms, car parking bays.</li>";
+		
+		var premium_shop_kl = "<li>Monthly rate: RM 11,500</li>"+
+		"<li>Floor size: 2900sqft</li>"+
+		"<li>RM 4.50 psf.</li>"+
+		"<li>Fully furnished.</li>"+
+		"<li>Facilities: Escalator, Lifts, restrooms, car parking bays.</li>";
+		
+      function product_description()
         {
-		if(document.getElementById("product").value == "h1"){
-		document.getElementById("demo").innerHTML = decrepit_house; 
+		if(document.getElementById("product_selection").value == "h1"){
+		document.getElementById("demo").innerHTML = small_downtown_home; 
 		}
-		if(document.getElementById("product").value == "a1"){
-		document.getElementById("demo").innerHTML = fancy_apartment; 
+		if(document.getElementById("product_selection").value == "h2"){
+		document.getElementById("demo").innerHTML = blue_ridge_farmhouse; 
 		}
+		if(document.getElementById("product_selection").value == "h3"){
+		document.getElementById("demo").innerHTML = forest_retreat_cottage; 
+		}
+		if(document.getElementById("product_selection").value == "h4"){
+		document.getElementById("demo").innerHTML = southern_belle_townhouse; 
+		}
+		if(document.getElementById("product_selection").value == "h5"){
+		document.getElementById("demo").innerHTML = regal_palmhouse; 
+		}
+		if(document.getElementById("product_selection").value == "h6"){
+		document.getElementById("demo").innerHTML = historic_renaissance_house; 
+		}
+		if(document.getElementById("product_selection").value == "h7"){
+		document.getElementById("demo").innerHTML = the_victorian_magic; 
+		}
+		if(document.getElementById("product_selection").value == "h8"){
+		document.getElementById("demo").innerHTML = the_tuscany_classic; 
+		}
+		if(document.getElementById("product_selection").value == "h9"){
+		document.getElementById("demo").innerHTML = the_spanish_palazzo; 
+		}
+		if(document.getElementById("product_selection").value == "a1"){
+		document.getElementById("demo").innerHTML = two_bedroom_apartment; 
+		}
+		if(document.getElementById("product_selection").value == "a2"){
+		document.getElementById("demo").innerHTML = glass_studio_apartment; 
+		}
+		if(document.getElementById("product_selection").value == "a3"){
+		document.getElementById("demo").innerHTML = breezehome_apartment; 
+		}
+		if(document.getElementById("product_selection").value == "a4"){
+		document.getElementById("demo").innerHTML = highfields_apartment; 
+		}
+		if(document.getElementById("product_selection").value == "a5"){
+		document.getElementById("demo").innerHTML = horizons_deluxe_apartment; 
+		}
+		if(document.getElementById("product_selection").value == "o1"){
+		document.getElementById("demo").innerHTML = small_internal_office; 
+		}
+		if(document.getElementById("product_selection").value == "o2"){
+		document.getElementById("demo").innerHTML = medium_internal_office; 
+		}
+		if(document.getElementById("product_selection").value == "o3"){
+		document.getElementById("demo").innerHTML = small_window_office; 
+		}
+		if(document.getElementById("product_selection").value == "o4"){
+		document.getElementById("demo").innerHTML = medium_window_office; 
+		}
+		if(document.getElementById("product_selection").value == "o5"){
+		document.getElementById("demo").innerHTML = large_window_office; 
+		}
+		if(document.getElementById("product_selection").value == "s1"){
+		document.getElementById("demo").innerHTML = small_sized_shop_johor; 
+		}
+		if(document.getElementById("product_selection").value == "s2"){
+		document.getElementById("demo").innerHTML = small_sized_shop_kuching; 
+		}
+		if(document.getElementById("product_selection").value == "s3"){
+		document.getElementById("demo").innerHTML = medium_sized_shop_subang; 
+		}
+		if(document.getElementById("product_selection").value == "s4"){
+		document.getElementById("demo").innerHTML = medium_sized_shop_kk; 
+		}
+		if(document.getElementById("product_selection").value == "s5"){
+		document.getElementById("demo").innerHTML = large_sized_shop_kuching; 
+		}
+		if(document.getElementById("product_selection").value == "s6"){
+		document.getElementById("demo").innerHTML = premium_shop_kl; 
+		}
+		
+		function validateForm(){
+
+		// Name validation
+		var name = document.getElementById("fname").value;
+		var nameVal = /^[A-Z]/;
+		var nameResult = nameVal.test(name);
+		
+		if (nameResult == false){
+			alert("Please enter a valid name!");
+		}
+		
+		// Email validation
+		var email = document.getElementById("email").value;
+		var emailVal = /^[@]/;
+		var emailResult = emailVal.test(email);
+
+		if (emailResult == false){
+			alert("Please enter a valid email!");
+		}
+		
         }   
 		
 </script>
@@ -83,15 +332,15 @@
 <div class="content_banner">COMPOSE AND SUBMIT YOUR ENQUIRY HERE</div>
 
 <div>
-	<form>
-		<input type="text" id="fname" name="firstname" placeholder="First name" maxlength="25" pattern="^[a-zA-Z ]+$" required="required"/>
-		<input type="text" id="lname" name="lastname" placeholder="Last name" maxlength="25" pattern="^[a-zA-Z ]+$" required="required"/>
-		<input type="email" id="email" name="contactemail" placeholder="E-mail" required="required"/>		
-		<input type="tel" id="phone" name="phone" placeholder="Phone number" maxlength="10" pattern="\(\d{2}\) +\d{4}" required="required"/>		
+	<form name="enquiry" onsubmit="validateForm()">
+		<input type="text" id="fname" name="firstname" placeholder="First name" maxlength="25" pattern="^[a-zA-Z ]+$"/>
+		<input type="text" id="lname" name="lastname" placeholder="Last name" maxlength="25" pattern="^[a-zA-Z ]+$"/>
+		<input type="email" id="email" name="contactemail" placeholder="E-mail"/>		
+		<input type="tel" id="phone" name="phone" placeholder="Phone number" maxlength="10" pattern="\(\d{2}\) +\d{4}"/>		
 		<fieldset>
 			<legend>Address</legend>
-			<label>Street Address: <input type="text" name="saddress" maxlength="40" required="required"/></label> 
-			<label>City/town: <input type="text" name="saddress" maxlength="20" required="required"/></label>
+			<label>Street Address: <input type="text" name="saddress" maxlength="40"/></label> 
+			<label>City/town: <input type="text" name="saddress" maxlength="20" /></label>
 			<label for="state">State</label> 
 				<select name="state" id="state">
 				<option value="Sarawak" selected="selected">Sarawak</option>
@@ -111,7 +360,7 @@
 				<option value="Selangor">Selangor</option>
 				<option value="Terengganu">Terengganu</option>
 				</select>
-			<label>Postcode<input type="tel" id="postcode" name="postcode" maxlength="5" pattern="\(\d{2}\) +\d{4}" required="required"/></label>
+			<label>Postcode<input type="tel" id="postcode" name="postcode" maxlength="5" pattern="\(\d{2}\) +\d{4}" /></label>
 		</fieldset>
 		<br/> 
 		<label for="product">Product</label>
@@ -122,7 +371,7 @@
 			<option value="Shops">Shops</option>
 			</select> 
 		<label for="product">Product name</label>
-			<select name="product" id="product">
+			<select name="product_selection" id="product_selection" onclick="product_description();">
 			<option value="Two-Bedroom Apartment" selected="selected">Two-Bedroom Apartment</option>
 			<option value="D'Glass Studio Apartment">D'Glass Studio Apartment</option> 
 			<option value="Breezehome Apartment">Breezehome Apartment</option> 
@@ -139,7 +388,7 @@
 			<option value="Medium-sized shop">Medium-sized shop (Kota Kinabalu)</option>
 			<option value="Large-sized shop">Large-sized shop (Kuching)</option>
 			<option value="Premium shop (Kuala Lumpur)">Premium shop (Kuala Lumpur)</option>
-			<option value="Small Downtown Home">Small Downtown Home</option>
+			<option value="Small Downtown home">Small Downtown Home</option>
 			<option value="Blue Ridge Farmhouse">Blue Ridge Farmhouse</option>
 			<option value="Forest Retreat Cottage">Forest Retreat Cottage</option>
 			<option value="Southern Belle Townhouse">Southern Belle Townhouse</option>
@@ -149,11 +398,39 @@
 			<option value="The Tuscany Classic">The Tuscany Classic</option>
 			<option value="The Spanish Palazzo">The Spanish Palazzo</option>
 			</select> 	
-		<label>Rental duration (months)<input type="number" name="rentalduration" min="0" max="200" value="1" required="required"/></label>
-		<input type="text" id="message" name="enquiry" placeholder="State the reason for your enquiry" size="10" required="required"/>
-		<input type="text" id="demo"/>
+		<label>Rental duration (months)<input type="number" name="rentalduration" min="0" max="200" value="1"/></label>
+		<input type="text" id="message" name="enquiry" placeholder="State the reason for your enquiry" size="10"/> 
+		<select id="product_selection" onclick="product_description();">
+		   <option></option>
+		   <option value="h1">Small Downtown House</option>
+		   <option value="h2">Blue Ridge Farmhouse</option>
+		   <option value="h3">Forest Retreat Cottage</option>
+		   <option value="h4">Southern Belle Townhouse</option>
+		   <option value="h5">Regal Palmhouse</option>
+		   <option value="h6">Historic Renaissance House</option>
+		   <option value="h7">The Victorian Magic</option>
+		   <option value="h8">The Tuscany Classic</option>
+		   <option value="h9">The Spanish Palazzo</option>
+		   <option value="a1">Two-Bedroom Apartment</option>
+		   <option value="a2">Glass Studio Apartment</option>
+		   <option value="a3">Breezehome Apartment</option>
+		   <option value="a4">Highfields Apartment</option>
+		   <option value="a5">Horizons Deluxe Apartment</option>
+		   <option value="o1">Small internal office</option>
+		   <option value="o2">Medium internal office</option>
+		   <option value="o3">Small window office</option>
+		   <option value="o4">Medium window office</option>
+		   <option value="o5">Large window office</option>
+		   <option value="s1">Small-sized shop (Johor)</option>
+		   <option value="s2">Small-sized shop (Kuching)</option>
+		   <option value="s3">Medium-sized shop (Subang Jaya)</option>
+		   <option value="s4">Medium-sized shop (Kota Kinabalu)</option>
+		   <option value="s5">Large-sized shop (Kuching)</option>
+		   <option value="s6">Premium shop (Kuala Lumpur)</option>
+		</select>
 		<input type="submit" value="Submit">
 	</form>
+	
 	
 </div>
 

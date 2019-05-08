@@ -192,6 +192,9 @@
 		
       function product_description()
         {
+		if(document.getElementById("product_selection").value == ""){
+		document.getElementById("demo").innerHTML = ""; 
+		}
 		if(document.getElementById("product_selection").value == "h1"){
 		document.getElementById("demo").innerHTML = small_downtown_home; 
 		}
@@ -266,6 +269,7 @@
 		}
 		if(document.getElementById("product_selection").value == "s6"){
 		document.getElementById("demo").innerHTML = premium_shop_kl; 
+		}
 		}
 		
 		function validateForm(){
@@ -370,9 +374,11 @@
 			<option value="Offices">Offices</option> 
 			<option value="Shops">Shops</option>
 			</select> 
+			
 		<label for="product">Product name</label>
-			<select name="product_selection" id="product_selection" onclick="product_description();">
-			<option value="Two-Bedroom Apartment" selected="selected">Two-Bedroom Apartment</option>
+			<select id="product_selection" onclick="product_description();">
+			<option></option>
+			<option value="Two-Bedroom Apartment">Two-Bedroom Apartment</option>
 			<option value="D'Glass Studio Apartment">D'Glass Studio Apartment</option> 
 			<option value="Breezehome Apartment">Breezehome Apartment</option> 
 			<option value="Highfields Apartment">Highfields Apartment</option>
@@ -388,7 +394,7 @@
 			<option value="Medium-sized shop">Medium-sized shop (Kota Kinabalu)</option>
 			<option value="Large-sized shop">Large-sized shop (Kuching)</option>
 			<option value="Premium shop (Kuala Lumpur)">Premium shop (Kuala Lumpur)</option>
-			<option value="Small Downtown home">Small Downtown Home</option>
+			<option value="h1">Small Downtown Home</option>
 			<option value="Blue Ridge Farmhouse">Blue Ridge Farmhouse</option>
 			<option value="Forest Retreat Cottage">Forest Retreat Cottage</option>
 			<option value="Southern Belle Townhouse">Southern Belle Townhouse</option>
@@ -398,6 +404,9 @@
 			<option value="The Tuscany Classic">The Tuscany Classic</option>
 			<option value="The Spanish Palazzo">The Spanish Palazzo</option>
 			</select> 	
+			
+			<p id="demo"></p>
+			
 		<label>Rental duration (months)<input type="number" name="rentalduration" min="0" max="200" value="1"/></label>
 		<input type="text" id="message" name="enquiry" placeholder="State the reason for your enquiry" size="10"/> 
 		<select id="product_selection" onclick="product_description();">
